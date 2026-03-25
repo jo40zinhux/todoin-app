@@ -1,0 +1,6 @@
+framework module app_group_directory {
+  umbrella header "app_group_directory-umbrella.h"
+
+  export *
+  module * { export * }
+}
