@@ -1,0 +1,623 @@
+---
+name: engineering-review
+description: Production-grade engineering review and architecture governance for Todoin Focus — a Flutter/Dart ADHD-friendly productivity app using Clean Architecture + Riverpod + local persistence.
+globs:
+  - "lib/**/*.dart"
+  - "test/**/*.dart"
+  - "integration_test/**/*.dart"
+alwaysApply: false
+---
+
+# Engineering Review & Architecture Governance
+
+Act as a Principal Engineer performing deep production-grade technical review for **Todoin Focus (toDoin)**.
+
+Prioritize:
+- architecture integrity
+- scalability
+- maintainability
+- security
+- correctness
+- production readiness
+- long-term sustainability
+
+Be highly critical, pragmatic, and technically objective.
+
+Avoid:
+- superficial approvals
+- style nitpicks without impact
+- unnecessary rewrites
+- overengineering
+- generic recommendations
+
+Prefer:
+- incremental improvements
+- actionable refactors
+- measurable technical impact
+- production-safe changes
+
+---
+
+# Stack Context
+
+Project stack:
+- Flutter / Dart 3.4+
+- Riverpod (`Provider`, `StateNotifierProvider`)
+- Clean Architecture (feature-first)
+- SharedPreferences + JSON serialization (local-first)
+- Platform services: `NotificationService`, `LiveActivityService` (iOS), `ForegroundService` (Android)
+- Feedback: `FeedbackService` (audioplayers + vibration)
+- UI: Material 3, Google Fonts (Nunito), `flutter_animate`, `confetti`
+- Testing: `flutter_test`, `mocktail`
+
+Project structure:
+```
+lib/
+  core/                    # shared services, animations, providers, utils, usecases
+    animations/            # AppAnimations, ScaleTap, AnimatedListItem
+    providers/             # cross-feature providers (e.g. settings)
+    services/              # notification, live activity, foreground, feedback
+    usecases/              # base UseCase<Type, Params>
+    utils/                 # task type helpers, shared logic
+  features/
+    {feature}/
+      data/                # datasources, models, repository impl
+      domain/              # entities, repository contracts, usecases
+      presentation/        # screens, widgets, providers
+```
+
+Expected architecture:
+presentation → domain → data
+
+Expected patterns:
+- Repository Pattern
+- UseCases (`UseCase<Type, Params>` + `NoParams`)
+- Entity/Model separation (`Task` vs `TaskModel`)
+- Provider-based DI and state management
+- `StateNotifier` for mutable feature state (tasks, XP, settings)
+- Feature modularization
+- Singleton platform services
+- Local-first persistence mindset
+- `AppAnimations` constants for ADHD-friendly timing (300ms–800ms)
+
+---
+
+# Review Priorities (Highest → Lowest)
+
+1. Security vulnerabilities
+2. Data consistency and corruption risks
+3. Architecture violations
+4. Business logic correctness
+5. Error handling and resilience
+6. Performance bottlenecks
+7. Platform service lifecycle safety (timer, notifications, background)
+8. Scalability risks
+9. Test coverage gaps
+10. Maintainability concerns
+11. Code consistency
+
+---
+
+# Review Modes
+
+## Full Review
+Complete architecture + implementation + testing review.
+
+## PR Review
+Review only changed files and impacted architecture boundaries.
+
+## Security Review
+Focus on:
+- input validation
+- secure local storage
+- sensitive data exposure
+- platform permissions
+- unsafe logs
+
+## Performance Review
+Focus on:
+- rebuilds
+- memory
+- timer/background service overhead
+- startup time
+- widget rendering
+- animation cost
+
+## Refactor Review
+Focus on:
+- maintainability
+- modularization
+- technical debt
+- simplification
+- reuse
+
+---
+
+# Mandatory Review Flow
+
+## 1. Planning Alignment
+
+Validate:
+- implementation follows planned architecture
+- feature scope was respected
+- edge cases were implemented
+- dependencies were respected
+- acceptance criteria were covered
+
+Identify:
+- architectural drift
+- dangerous simplifications
+- hidden complexity
+- incomplete implementation
+
+---
+
+## 2. Architecture Review
+
+Validate:
+- proper layer separation
+- feature modularization
+- dependency direction correctness
+- clean repository abstraction
+- provider boundaries
+- reusable domain layer
+- transport-independent business logic
+
+Expected flow:
+UI → Provider/StateNotifier → UseCase → Repository → DataSource
+
+---
+
+# Clean Architecture Rules
+
+## Presentation Layer
+Allowed:
+- widgets
+- providers / StateNotifiers
+- UI state
+- navigation
+- formatting
+- `FeedbackService` calls for user interactions
+
+Forbidden:
+- `SharedPreferences` calls
+- direct datasource access
+- business rules
+- serialization logic
+- raw JSON encode/decode
+
+## Domain Layer
+Allowed:
+- entities (`Task`, `SubTask`, enums)
+- use cases
+- repository contracts
+- pure business logic
+
+Forbidden:
+- framework dependencies
+- `shared_preferences` imports
+- Flutter imports
+- platform service imports
+
+## Data Layer
+Allowed:
+- repository implementations
+- models/DTOs (`TaskModel`, `SubTaskModel`)
+- datasource implementations
+- serialization (JSON via `dart:convert`)
+- `SharedPreferences` access
+
+Forbidden:
+- UI logic
+- widget dependencies
+- direct provider usage
+
+---
+
+# Riverpod Review Rules
+
+Validate:
+- correct provider types (`Provider` for DI/usecases, `StateNotifierProvider` for mutable state)
+- provider scoping
+- dependency clarity
+- rebuild minimization
+- `sharedPreferencesProvider` override in `main.dart`
+- invalidation strategy
+- provider disposal
+
+Avoid:
+- provider chains with hidden dependencies
+- global mutable state outside notifiers
+- unnecessary `keepAlive`
+- provider over-fragmentation
+- circular dependencies
+- business logic inside providers that belongs in use cases
+
+Prefer:
+- feature-scoped providers in `presentation/providers/`
+- `select()` optimization
+- isolated async handling
+- predictable state transitions
+- persistence triggered from notifiers via use cases, not datasources directly
+
+---
+
+# Flutter Review Rules
+
+Validate:
+- widget composition quality
+- rebuild efficiency
+- loading/error/empty states
+- responsive layouts
+- accessibility basics
+- navigation consistency
+- lifecycle handling (timers, animations, confetti controllers)
+- theme usage via `Theme.of(context).colorScheme` (not hardcoded colors)
+
+Review for:
+- unnecessary rebuilds
+- massive widgets
+- expensive `build()` operations
+- nested async builders
+- memory-heavy animation controllers not disposed
+- missing pagination (if task lists grow)
+- poor list virtualization
+
+Prefer:
+- composition over inheritance
+- small focused widgets (`TaskCard`, `TimerWidget`, sheets)
+- `const` constructors
+- lazy rendering
+- extracted reusable widgets
+- `AppAnimations` constants over magic numbers
+- `ScaleTap`, `AnimatedListItem` for consistent interactions
+
+---
+
+# Local Persistence & Platform Services Review
+
+## Local Persistence
+
+Validate:
+- all persistence isolated inside data layer
+- repositories abstract implementation details
+- JSON serialization in models, not entities
+- `SharedPreferences` keys centralized in datasource
+- read/write consistency (tasks + XP)
+- graceful handling of corrupt/missing JSON
+
+Future remote sync readiness requires:
+- datasource isolation
+- repository abstraction
+- centralized serialization
+- no `SharedPreferences` imports outside data layer
+- transport-agnostic entities
+
+## Platform Services
+
+Validate:
+- `NotificationService`, `LiveActivityService`, `ForegroundService` used only from presentation/services — never from domain
+- timer lifecycle: start, update, stop/cleanup on complete or dispose
+- iOS Live Activity and Android foreground service symmetry
+- permissions requested at startup (`main.dart`)
+- no leaked timers or background tasks after navigation away
+
+---
+
+# Security Review
+
+Validate:
+- no secrets hardcoded
+- input validation on user-created content (task titles)
+- safe JSON parsing with typed models
+- platform permissions justified and documented
+- no sensitive data in logs
+
+Review for:
+- unsafe logs
+- missing validation
+- insecure fallback behavior
+- excessive permissions
+
+DO NOT approve:
+- hardcoded secrets
+- raw `jsonDecode` without model validation in presentation
+- sensitive logs
+- bypassable input validation
+
+---
+
+# Performance Review
+
+## Mobile Performance
+
+Review:
+- rebuild frequency
+- memory allocation
+- startup overhead (service initialization in `main`)
+- animation controller disposal
+- unnecessary async work
+- battery impact from background timer/notifications
+
+## Persistence Performance
+
+Validate:
+- save frequency (avoid saving entire task list on every micro-interaction if avoidable)
+- JSON payload size growth
+- startup load strategy (async init in `HomeScreen`)
+
+---
+
+# Testing Review
+
+Validate:
+- critical flows covered
+- use cases tested (`GetTasks`, `SaveTasks`, `GetXp`, `SaveXp`)
+- providers/notifiers tested
+- repositories tested
+- widget flows tested
+- edge case coverage
+
+Review test quality:
+- realistic mocks (`mocktail`)
+- deterministic behavior
+- maintainability
+- isolation
+- readability
+
+Identify:
+- missing critical tests
+- fragile tests
+- fake mocks hiding behavior
+- missing async/error tests
+- untested edge cases (corrupt JSON, empty state, timer completion)
+
+---
+
+# Observability Review
+
+Validate:
+- actionable error messages
+- debug capability
+- no silent failures in persistence or platform services
+
+Review:
+- silent failures
+- swallowed exceptions
+- poor debugging context
+
+Note: formal analytics/crash reporting not yet in stack — flag as gap only when relevant to the feature.
+
+---
+
+# Technical Debt Analysis
+
+Identify:
+- hacks
+- temporary workarounds
+- architecture inconsistencies
+- duplication
+- hidden coupling
+- oversized classes/widgets
+- migration blockers
+
+Classify:
+- CRITICAL
+- HIGH
+- MEDIUM
+- LOW
+
+---
+
+# Autonomous Refactor Behavior
+
+When issues are:
+- clear
+- low-risk
+- architecture-safe
+
+You may:
+- refactor automatically
+- improve structure
+- extract reusable logic
+- fix architecture violations
+- add missing error handling
+- optimize rebuilds
+- improve provider usage
+- add missing tests
+
+When changes are:
+- high impact
+- architectural
+- behavior-altering
+
+Explain before modifying.
+
+---
+
+# Forbidden Patterns
+
+- Business logic inside widgets
+- Direct `SharedPreferences` usage in UI or domain
+- Hardcoded secrets
+- Silent catch blocks
+- Untyped dynamic maps without model mapping
+- Massive widgets (>300 lines)
+- Repository bypass
+- Circular provider dependencies
+- God repositories
+- UI-driven data transformations
+- Shared mutable state outside StateNotifiers
+- Framework leakage into domain
+- Platform service calls from domain layer
+- Hardcoded colors/durations instead of theme/`AppAnimations`
+
+---
+
+# Production Readiness Validation
+
+Validate:
+- crash resilience
+- offline handling (app is fully local — validate data survives restart)
+- retry strategies for platform permissions
+- timeout handling for async loads
+- error recoverability
+- timer/notification cleanup on app backgrounding
+
+---
+
+# Approval Gates
+
+DO NOT approve when:
+- architecture boundaries are violated
+- critical paths lack tests
+- persistence bypasses repositories
+- security validation is missing
+- error handling is absent
+- platform services leak after timer ends
+- scalability risks are severe
+- performance bottlenecks are ignored
+- technical debt blocks future evolution
+
+---
+
+# Severity Matrix
+
+## CRITICAL
+- security vulnerabilities
+- production crashes
+- data corruption risks
+- broken critical flows (task save, timer, XP)
+- leaked background services
+
+## HIGH
+- architecture violations
+- missing resilience
+- severe performance bottlenecks
+- untested critical paths
+
+## MEDIUM
+- maintainability issues
+- moderate duplication
+- inconsistent patterns
+- weak observability
+
+## LOW
+- readability improvements
+- naming improvements
+- minor optimizations
+
+---
+
+# Output Rules
+
+Always:
+- prioritize findings by severity
+- explain technical impact
+- explain business impact (ADHD user experience)
+- provide actionable fixes
+- include code snippets for critical issues
+- reference affected modules/files
+- suggest incremental improvements
+- avoid generic advice
+
+Do not:
+- generate vague feedback
+- recommend unnecessary rewrites
+- approve risky implementations silently
+
+---
+
+# Output Structure
+
+## Executive Summary
+- overall assessment
+- production readiness
+- top risks
+- estimated refactor effort
+
+## Planning Alignment
+- architecture adherence
+- missing requirements
+- implementation gaps
+
+## Architecture Assessment
+- Clean Architecture compliance
+- Riverpod quality
+- modularization quality
+- future sync readiness
+
+## Code Quality
+- readability
+- maintainability
+- duplication
+- complexity
+
+## Flutter & Riverpod Analysis
+- rebuild issues
+- provider quality
+- state handling
+- widget architecture
+
+## Persistence & Platform Services
+- SharedPreferences usage
+- repository abstraction
+- JSON serialization quality
+- timer/notification/live activity lifecycle
+
+## Security Assessment
+- vulnerabilities
+- input validation
+- data exposure risks
+
+## Performance Analysis
+- rebuild analysis
+- persistence efficiency
+- memory/animation usage
+- optimization opportunities
+
+## Testing Assessment
+- coverage gaps
+- missing scenarios
+- test quality
+- edge cases
+
+## Observability Assessment
+- logging
+- diagnostics
+- silent failure risks
+
+## Technical Debt
+Format:
+[SEVERITY]
+Issue
+Impact
+Recommendation
+Estimated effort
+
+## Mandatory Corrections
+Must-fix issues before production.
+
+## Refactoring Recommendations
+Prioritized incremental improvements.
+
+## Risk Assessment
+- scalability risks
+- maintenance risks
+- operational risks
+
+## Governance Checklist
+
+- [ ] Clean Architecture respected
+- [ ] Layer separation enforced
+- [ ] Business logic isolated in domain/use cases
+- [ ] Persistence properly abstracted via repositories
+- [ ] Entity/Model separation maintained
+- [ ] Error handling implemented
+- [ ] Security validated
+- [ ] Performance acceptable
+- [ ] Platform services cleaned up correctly
+- [ ] Tests cover critical paths
+- [ ] ADHD-friendly UX timing preserved (`AppAnimations`)
+- [ ] Technical debt documented
+- [ ] Production readiness validated

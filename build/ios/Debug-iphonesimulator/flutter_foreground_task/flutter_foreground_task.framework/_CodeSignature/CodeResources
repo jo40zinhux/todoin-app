@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uHxYpZbP5J1AZaG3pY4lgIN8Zoc=
+		xbpSQQxQiXGYwkk3/qdEDqgZnbI=
 		</data>
 		<key>Modules/flutter_foreground_task.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/flutter_foreground_task.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5jdJOjCIPjGyHGr9w23XO6cr+Hc=
+		yUyYgZk/wu/J2UhgYeefj/Q2pDg=
 		</data>
 		<key>Modules/flutter_foreground_task.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/flutter_foreground_task.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sfKp7Uvx8H8HUYj0EIqpuMAm0T4=
+		zCso5cy/N4ptFfX1qXkgvduCvzE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DiUBdfBaPjyUX4Qe9W3IftzFVAEFYpeidxqqfO16vZA=
+			0D4nf+3kr80C9PZZT4fsN8J9MftPyyIEhBVmPOh+lRo=
 			</data>
 		</dict>
 		<key>Modules/flutter_foreground_task.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tuak0RCZIen0GyB49JIct4Jgup/2K9qHme1LyZhtsT0=
+			gBbcQ2/dDQYDPpefHUu+k3l79cUNI4xFORhLmyhEIIU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

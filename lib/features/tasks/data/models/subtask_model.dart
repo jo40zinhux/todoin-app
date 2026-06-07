@@ -1,9 +1,12 @@
 import '../../domain/entities/subtask.dart';
 
-class SubTaskModel extends SubTask {
+class SubTaskModel {
+  final String title;
+  final bool done;
+
   const SubTaskModel({
-    required super.title,
-    super.done = false,
+    required this.title,
+    this.done = false,
   });
 
   factory SubTaskModel.fromJson(Map<String, dynamic> json) {
@@ -24,6 +27,13 @@ class SubTaskModel extends SubTask {
     return SubTaskModel(
       title: entity.title,
       done: entity.done,
+    );
+  }
+
+  SubTask toEntity() {
+    return SubTask(
+      title: title,
+      done: done,
     );
   }
 }

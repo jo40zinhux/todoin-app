@@ -2,6 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:todoin_focus_app/core/usecases/usecase.dart';
 import 'package:todoin_focus_app/features/tasks/domain/entities/task.dart';
+import 'package:todoin_focus_app/features/tasks/domain/entities/tasks_load_result.dart';
 import 'package:todoin_focus_app/features/tasks/domain/repositories/task_repository.dart';
 import 'package:todoin_focus_app/features/tasks/domain/usecases/get_tasks.dart';
 import 'package:todoin_focus_app/features/tasks/domain/usecases/save_tasks.dart';
@@ -31,11 +32,13 @@ void main() {
     ];
 
     test('should get tasks from repository', () async {
-      when(() => mockRepository.getTasks()).thenAnswer((_) async => tTasks);
+      when(() => mockRepository.getTasks()).thenAnswer(
+        (_) async => TasksLoadResult(tasks: tTasks),
+      );
 
       final result = await getTasks(NoParams());
 
-      expect(result, tTasks);
+      expect(result.tasks, tTasks);
       verify(() => mockRepository.getTasks()).called(1);
       verifyNoMoreInteractions(mockRepository);
     });

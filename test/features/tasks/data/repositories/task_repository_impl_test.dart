@@ -2,6 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:todoin_focus_app/features/tasks/data/datasources/task_local_datasource.dart';
 import 'package:todoin_focus_app/features/tasks/data/models/task_model.dart';
+import 'package:todoin_focus_app/features/tasks/data/models/tasks_read_result.dart';
 import 'package:todoin_focus_app/features/tasks/data/repositories/task_repository_impl.dart';
 import 'package:todoin_focus_app/features/tasks/domain/entities/task.dart';
 
@@ -24,16 +25,16 @@ void main() {
       const Task(id: '1', title: 'Task 1', subtasks: []),
     ];
 
-    test('should return list of Tasks when getTasks is called', () async {
-      when(() => mockDataSource.getTasks())
-          .thenAnswer((_) async => tTaskModels);
+    test('should return list of Task entities when getTasks is called', () async {
+      when(() => mockDataSource.getTasks()).thenAnswer(
+        (_) async => TasksReadResult(tasks: tTaskModels),
+      );
 
       final result = await repository.getTasks();
 
-      expect(
-          result,
-          equals(
-              tTaskModels)); // Entities are equal to Models thanks to heritage
+      expect(result.tasks, equals(tTasks));
+      expect(result.tasks.first, isA<Task>());
+      expect(result.recoveredFromCorruption, isFalse);
       verify(() => mockDataSource.getTasks()).called(1);
     });
 

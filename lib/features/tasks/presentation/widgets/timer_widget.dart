@@ -16,9 +16,16 @@ import '../../../../core/services/feedback_service.dart';
 /// - Dispara notificação local em ambas as plataformas
 /// - Encerra a Live Activity / foreground service
 class TimerWidget extends StatefulWidget {
+  final int durationSeconds;
+  final String taskTitle;
   final VoidCallback? onComplete;
 
-  const TimerWidget({super.key, this.onComplete});
+  const TimerWidget({
+    super.key,
+    this.durationSeconds = 120,
+    this.taskTitle = 'Foco ativo',
+    this.onComplete,
+  });
 
   @override
   State<TimerWidget> createState() => _TimerWidgetState();
@@ -26,8 +33,8 @@ class TimerWidget extends StatefulWidget {
 
 class _TimerWidgetState extends State<TimerWidget>
     with SingleTickerProviderStateMixin {
-  static const int _totalSeconds = 120;
-  int _remaining = _totalSeconds;
+  late final int _totalSeconds;
+  late int _remaining;
   Timer? _timer;
   bool _finished = false;
 
@@ -37,6 +44,8 @@ class _TimerWidgetState extends State<TimerWidget>
   @override
   void initState() {
     super.initState();
+    _totalSeconds = widget.durationSeconds;
+    _remaining = _totalSeconds;
     _pulseController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 1200),
@@ -53,7 +62,7 @@ class _TimerWidgetState extends State<TimerWidget>
     if (Platform.isIOS) {
       await LiveActivityService.instance.startTimerActivity(
         totalSeconds: _totalSeconds,
-        taskTitle: 'Foco ativo',
+        taskTitle: widget.taskTitle,
       );
     } else if (Platform.isAndroid) {
       await ForegroundService.instance.startTimerService(
@@ -151,6 +160,21 @@ class _TimerWidgetState extends State<TimerWidget>
                 fontWeight: FontWeight.w600,
               ),
             ),
+            if (!_finished && widget.taskTitle.isNotEmpty) ...[
+              const SizedBox(height: 8),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 32),
+                child: Text(
+                  widget.taskTitle,
+                  textAlign: TextAlign.center,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: theme.textTheme.bodyMedium?.copyWith(
+                    color: colorScheme.onSurfaceVariant,
+                  ),
+                ),
+              ),
+            ],
             const SizedBox(height: 48),
             ScaleTransition(
               scale: _finished

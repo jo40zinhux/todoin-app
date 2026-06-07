@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import '../../domain/entities/task.dart';
+
 import '../../../../core/animations/animated_list_item.dart';
 import '../../../../core/animations/animation_constants.dart';
-import '../../../../core/animations/scale_tap.dart';
+import '../../../../core/services/feedback_service.dart';
+import '../utils/task_type_display.dart';
+import '../../domain/entities/task.dart';
 
 class TaskCard extends StatelessWidget {
   final Task task;
@@ -11,6 +13,7 @@ class TaskCard extends StatelessWidget {
   final VoidCallback onStartTimer;
   final VoidCallback onCantStart;
   final VoidCallback onComplete;
+  final String timerButtonLabel;
 
   const TaskCard({
     super.key,
@@ -19,6 +22,7 @@ class TaskCard extends StatelessWidget {
     required this.onStartTimer,
     required this.onCantStart,
     required this.onComplete,
+    this.timerButtonLabel = 'Começar por 2 minutos',
   });
 
   @override
@@ -44,7 +48,6 @@ class TaskCard extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // ── Task title row ────────────────────────────────────────────
               Row(
                 children: [
                   Container(
@@ -55,13 +58,11 @@ class TaskCard extends StatelessWidget {
                       shape: BoxShape.circle,
                     ),
                   )
-                      .animate(
-                        onPlay: (c) => c.repeat(reverse: true),
-                      )
+                      .animate(onPlay: (c) => c.repeat(reverse: true))
                       .scaleXY(
                         begin: 1.0,
                         end: 1.5,
-                        duration: const Duration(milliseconds: 900),
+                        duration: AppAnimations.slow,
                         curve: Curves.easeInOut,
                       ),
                   const SizedBox(width: 12),
@@ -74,12 +75,26 @@ class TaskCard extends StatelessWidget {
                       ),
                     ),
                   ),
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 10,
+                      vertical: 4,
+                    ),
+                    decoration: BoxDecoration(
+                      color: colorScheme.primaryContainer,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Text(
+                      '${taskTypeIcon(task.type)} ${taskTypeName(task.type)}',
+                      style: theme.textTheme.labelSmall?.copyWith(
+                        color: colorScheme.onPrimaryContainer,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
                 ],
               ),
-
               const SizedBox(height: 20),
-
-              // ── Subtask list with stagger ─────────────────────────────────
               ...List.generate(task.subtasks.length, (index) {
                 final sub = task.subtasks[index];
                 return AnimatedListItem(
@@ -87,18 +102,19 @@ class TaskCard extends StatelessWidget {
                   duration: AppAnimations.medium,
                   child: Padding(
                     padding: const EdgeInsets.only(bottom: 4),
-                    child: ScaleTap(
-                      scaleDown: 0.96,
+                    child: InkWell(
+                      borderRadius: BorderRadius.circular(12),
                       onTap: () => onToggleSubtask(index),
                       child: Padding(
                         padding: const EdgeInsets.symmetric(
-                            vertical: 6, horizontal: 4),
+                          vertical: 6,
+                          horizontal: 4,
+                        ),
                         child: Row(
                           children: [
-                            // Animated checkbox
                             AnimatedContainer(
                               duration: AppAnimations.fast,
-                              curve: Curves.easeOutCubic,
+                              curve: AppAnimations.tapScale,
                               width: 24,
                               height: 24,
                               decoration: BoxDecoration(
@@ -114,8 +130,11 @@ class TaskCard extends StatelessWidget {
                                 ),
                               ),
                               child: sub.done
-                                  ? const Icon(Icons.check,
-                                          size: 16, color: Colors.white)
+                                  ? Icon(
+                                      Icons.check,
+                                      size: 16,
+                                      color: colorScheme.onPrimary,
+                                    )
                                       .animate()
                                       .scale(
                                         begin: const Offset(0.3, 0.3),
@@ -130,7 +149,9 @@ class TaskCard extends StatelessWidget {
                               child: AnimatedDefaultTextStyle(
                                 duration: AppAnimations.fast,
                                 curve: Curves.easeOut,
-                                style: (theme.textTheme.bodyMedium ?? const TextStyle()).copyWith(
+                                style:
+                                    (theme.textTheme.bodyMedium ?? const TextStyle())
+                                        .copyWith(
                                   decoration: sub.done
                                       ? TextDecoration.lineThrough
                                       : TextDecoration.none,
@@ -148,85 +169,86 @@ class TaskCard extends StatelessWidget {
                   ),
                 );
               }),
-
               const SizedBox(height: 24),
-
-              // ── Start timer button (looping pulse) ───────────────────────
-              ScaleTap(
-                onTap: onStartTimer,
-                useHaptic: true,
-                child: SizedBox(
-                  width: double.infinity,
-                  height: 56,
-                  child: FilledButton.icon(
-                    onPressed: null, // tap handled by ScaleTap
-                    icon: const Icon(Icons.play_arrow_rounded, size: 28),
-                    label: const Text(
-                      'Começar por 2 minutos',
-                      style: TextStyle(
-                          fontSize: 16, fontWeight: FontWeight.w600),
-                    ),
-                    style: FilledButton.styleFrom(
-                      disabledBackgroundColor: colorScheme.primary,
-                      disabledForegroundColor: colorScheme.onPrimary,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(16)),
+              SizedBox(
+                width: double.infinity,
+                height: 56,
+                child: FilledButton.icon(
+                  onPressed: () {
+                    FeedbackService.click();
+                    onStartTimer();
+                  },
+                  icon: const Icon(Icons.play_arrow_rounded, size: 28),
+                  label: Text(
+                    timerButtonLabel,
+                    style: const TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
-                )
-                    .animate(onPlay: (c) => c.repeat(reverse: true))
-                    .scaleXY(
-                      begin: 1.0,
-                      end: 1.05,
-                      duration: const Duration(milliseconds: 800),
-                      curve: Curves.easeInOut,
+                  style: FilledButton.styleFrom(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16),
                     ),
-              ),
-
+                  ),
+                ),
+              )
+                  .animate(onPlay: (c) => c.repeat(reverse: true))
+                  .scaleXY(
+                    begin: 1.0,
+                    end: 1.05,
+                    duration: AppAnimations.slow,
+                    curve: Curves.easeInOut,
+                  ),
               const SizedBox(height: 12),
-
-              // ── Secondary action row ──────────────────────────────────────
               Row(
                 children: [
                   Expanded(
-                    child: ScaleTap(
-                      onTap: onCantStart,
-                      child: OutlinedButton.icon(
-                        onPressed: null, // tap handled by ScaleTap
-                        icon: Icon(Icons.sentiment_dissatisfied_rounded,
-                            size: 20, color: colorScheme.secondary),
-                        label: Text(
-                          'Preciso de ajuda',
-                          style: TextStyle(
-                              fontSize: 13, color: colorScheme.secondary),
+                    child: OutlinedButton.icon(
+                      onPressed: () {
+                        FeedbackService.click();
+                        onCantStart();
+                      },
+                      icon: Icon(
+                        Icons.sentiment_dissatisfied_rounded,
+                        size: 20,
+                        color: colorScheme.secondary,
+                      ),
+                      label: Text(
+                        'Preciso de ajuda',
+                        style: TextStyle(
+                          fontSize: 13,
+                          color: colorScheme.secondary,
                         ),
-                        style: OutlinedButton.styleFrom(
-                          padding:
-                              const EdgeInsets.symmetric(vertical: 14),
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(14)),
-                          side: BorderSide(
-                              color: colorScheme.outlineVariant),
+                      ),
+                      style: OutlinedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(14),
                         ),
+                        side: BorderSide(color: colorScheme.outlineVariant),
                       ),
                     ),
                   ),
                   const SizedBox(width: 10),
                   Expanded(
-                    child: ScaleTap(
-                      onTap: onComplete,
-                      child: FilledButton.tonalIcon(
-                        onPressed: null, // tap handled by ScaleTap
-                        icon: const Icon(
-                            Icons.check_circle_outline_rounded,
-                            size: 20),
-                        label: const Text('Terminei 🙌',
-                            style: TextStyle(fontSize: 13)),
-                        style: FilledButton.styleFrom(
-                          padding:
-                              const EdgeInsets.symmetric(vertical: 14),
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(14)),
+                    child: FilledButton.tonalIcon(
+                      onPressed: () {
+                        FeedbackService.click();
+                        onComplete();
+                      },
+                      icon: const Icon(
+                        Icons.check_circle_outline_rounded,
+                        size: 20,
+                      ),
+                      label: const Text(
+                        'Terminei 🙌',
+                        style: TextStyle(fontSize: 13),
+                      ),
+                      style: FilledButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(14),
                         ),
                       ),
                     ),

@@ -27,7 +27,7 @@ class LiveActivityService {
     try {
       // O appGroupId deve corresponder ao App Group configurado no Xcode
       // Ex: group.com.yourcompany.todoin
-      await _plugin.init(appGroupId: 'group.com.example.todoin');
+      await _plugin.init(appGroupId: 'group.com.cubitapp.todoinapp');
       _supported = true;
       debugPrint(
           '[LiveActivityService] Live Activities suportado e inicializado.');

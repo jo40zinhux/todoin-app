@@ -36,19 +36,16 @@ target 'Runner' do
   end
 end
 
-# Widget Extension target – must NOT inherit pods from Runner to avoid build cycle
-target 'TimerLiveActivityExtension' do
+# Extensão unificada (Home Widget + Live Activity) — sem pods do Runner
+target 'TodoinExtensionsExtension' do
   use_frameworks!
   use_modular_headers!
-  # No pods needed: the extension uses only system frameworks (ActivityKit, WidgetKit, SwiftUI)
 end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     flutter_additional_ios_build_settings(target)
 
-    # Fix: remove ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES from extension targets
-    # This prevents the [CP] Embed Pods Frameworks ↔ Thin Binary build cycle.
     if target.respond_to?(:product_type) && target.product_type == "com.apple.product-type.app-extension"
       target.build_configurations.each do |config|
         config.build_settings['ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES'] = 'NO'

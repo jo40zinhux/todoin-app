@@ -1,4 +1,5 @@
 import '../../domain/entities/task.dart';
+import '../../domain/entities/tasks_load_result.dart';
 import '../../domain/repositories/task_repository.dart';
 import '../datasources/task_local_datasource.dart';
 import '../models/task_model.dart';
@@ -9,8 +10,12 @@ class TaskRepositoryImpl implements TaskRepository {
   TaskRepositoryImpl({required this.localDataSource});
 
   @override
-  Future<List<Task>> getTasks() async {
-    return await localDataSource.getTasks();
+  Future<TasksLoadResult> getTasks() async {
+    final result = await localDataSource.getTasks();
+    return TasksLoadResult(
+      tasks: result.tasks.map((model) => model.toEntity()).toList(),
+      recoveredFromCorruption: result.recoveredFromCorruption,
+    );
   }
 
   @override

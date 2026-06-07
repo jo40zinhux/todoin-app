@@ -10,16 +10,16 @@
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		50A1DEA881D6CAA00426F372 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6719D5D07236200D4FFA876 /* Pods_RunnerTests.framework */; };
-		6C54ACF53F0285B43CE4BCA4 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB3D578684451109B86C9F4 /* Pods_Runner.framework */; };
+		59D3DA0C5C08CEFCC66E4B60 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F863D998FB4A0B1F3C6F2C37 /* Pods_RunnerTests.framework */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
-		883F05C42F70DCEA0075E871 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883F05C32F70DCEA0075E871 /* WidgetKit.framework */; };
-		883F05C62F70DCEA0075E871 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883F05C52F70DCEA0075E871 /* SwiftUI.framework */; };
-		883F05D72F70DCEB0075E871 /* TimerLiveActivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 883F05C22F70DCEA0075E871 /* TimerLiveActivityExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7FD7AA8DA8F45610CC777EF6 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4F5C9246C9163A5CBA0B0F /* Pods_Runner.framework */; };
+		88622B232FD618DA0071ABB5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883F05C32F70DCEA0075E871 /* WidgetKit.framework */; };
+		88622B242FD618DA0071ABB5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883F05C52F70DCEA0075E871 /* SwiftUI.framework */; };
+		88622B332FD618DB0071ABB5 /* TodoinExtensionsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 88622B222FD618DA0071ABB5 /* TodoinExtensionsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		CDB85893881BCDE2CBE82CB1 /* Pods_TimerLiveActivityExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AB8865E695D0607C9DD244 /* Pods_TimerLiveActivityExtension.framework */; };
+		9919D69C5AD81560CE420BDB /* Pods_TodoinExtensionsExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E912BE4DE1911553A4BA71 /* Pods_TodoinExtensionsExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,12 @@
 			remoteGlobalIDString = 97C146ED1CF9000F007C117D;
 			remoteInfo = Runner;
 		};
-		883F05D52F70DCEB0075E871 /* PBXContainerItemProxy */ = {
+		88622B312FD618DB0071ABB5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 883F05C12F70DCEA0075E871;
-			remoteInfo = TimerLiveActivityExtension;
+			remoteGlobalIDString = 88622B212FD618DA0071ABB5;
+			remoteInfo = TodoinExtensionsExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				883F05D72F70DCEB0075E871 /* TimerLiveActivityExtension.appex in Embed Foundation Extensions */,
+				88622B332FD618DB0071ABB5 /* TodoinExtensionsExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,27 +64,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0EF2F7FC7239318F99420704 /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0FB8807957D837ED850F3022 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
+		015FD25A271A9791DD368500 /* Pods-TodoinExtensionsExtension.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoinExtensionsExtension.profile.xcconfig"; path = "Target Support Files/Pods-TodoinExtensionsExtension/Pods-TodoinExtensionsExtension.profile.xcconfig"; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
-		1D21B8FB4856003C8DDFFC9C /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
-		2CB3D578684451109B86C9F4 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4F8E9CAA4C9FD452011D27 /* Pods-TodoinExtensionsExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoinExtensionsExtension.debug.xcconfig"; path = "Target Support Files/Pods-TodoinExtensionsExtension/Pods-TodoinExtensionsExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		23ACA1493DF284AA2E27826F /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
-		52C76F1B1C10AB9ADC426786 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
-		6B195C6D90D278162FF5FA3A /* Pods-TimerLiveActivityExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerLiveActivityExtension.release.xcconfig"; path = "Target Support Files/Pods-TimerLiveActivityExtension/Pods-TimerLiveActivityExtension.release.xcconfig"; sourceTree = "<group>"; };
+		639A759128AB0F9CEF2B7D2A /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7522DAB813C243299EB02C23 /* Pods-TodoinExtensionsExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoinExtensionsExtension.release.xcconfig"; path = "Target Support Files/Pods-TodoinExtensionsExtension/Pods-TodoinExtensionsExtension.release.xcconfig"; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
-		7F6C659B5636F662E38AD168 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
-		883F05C22F70DCEA0075E871 /* TimerLiveActivityExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimerLiveActivityExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4F5C9246C9163A5CBA0B0F /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECABC66B455551D68E99851 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		883F05C32F70DCEA0075E871 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		883F05C52F70DCEA0075E871 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		883F05E22F70DF570075E871 /* RunnerRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunnerRelease.entitlements; sourceTree = "<group>"; };
-		883F05E32F70DFDF0075E871 /* TimerLiveActivityExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimerLiveActivityExtensionRelease.entitlements; sourceTree = "<group>"; };
-		94E959C3CAE8862FA9CA8F5B /* Pods-TimerLiveActivityExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerLiveActivityExtension.debug.xcconfig"; path = "Target Support Files/Pods-TimerLiveActivityExtension/Pods-TimerLiveActivityExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		88622B222FD618DA0071ABB5 /* TodoinExtensionsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodoinExtensionsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		88622B3A2FD619630071ABB5 /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		88622B3B2FD619810071ABB5 /* TodoinExtensionsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodoinExtensionsExtension.entitlements; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
 		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,33 +92,34 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6719D5D07236200D4FFA876 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C99DF99F745EA38594C65C33 /* Pods-TimerLiveActivityExtension.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerLiveActivityExtension.profile.xcconfig"; path = "Target Support Files/Pods-TimerLiveActivityExtension/Pods-TimerLiveActivityExtension.profile.xcconfig"; sourceTree = "<group>"; };
-		D0AB8865E695D0607C9DD244 /* Pods_TimerLiveActivityExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimerLiveActivityExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0B9A10603595076AB784D67 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		ACE0BDBD367562C99E6D3C07 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
+		C6E912BE4DE1911553A4BA71 /* Pods_TodoinExtensionsExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoinExtensionsExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8837FEF1E82938480658D4 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D697FFF1A07FC2C92AAA9661 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		F863D998FB4A0B1F3C6F2C37 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		883F05DC2F70DCEB0075E871 /* Exceptions for "TimerLiveActivity" folder in "TimerLiveActivityExtension" target */ = {
+		88622B372FD618DB0071ABB5 /* Exceptions for "TodoinExtensions" folder in "TodoinExtensionsExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 883F05C12F70DCEA0075E871 /* TimerLiveActivityExtension */;
+			target = 88622B212FD618DA0071ABB5 /* TodoinExtensionsExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		883F05C72F70DCEA0075E871 /* TimerLiveActivity */ = {
+		88622B252FD618DA0071ABB5 /* TodoinExtensions */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				883F05DC2F70DCEB0075E871 /* Exceptions for "TimerLiveActivity" folder in "TimerLiveActivityExtension" target */,
+				88622B372FD618DB0071ABB5 /* Exceptions for "TodoinExtensions" folder in "TodoinExtensionsExtension" target */,
 			);
 			explicitFileTypes = {
 			};
 			explicitFolders = (
 			);
-			path = TimerLiveActivity;
+			path = TodoinExtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -128,17 +129,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A1DEA881D6CAA00426F372 /* Pods_RunnerTests.framework in Frameworks */,
+				59D3DA0C5C08CEFCC66E4B60 /* Pods_RunnerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		883F05BF2F70DCEA0075E871 /* Frameworks */ = {
+		88622B1F2FD618DA0071ABB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883F05C62F70DCEA0075E871 /* SwiftUI.framework in Frameworks */,
-				883F05C42F70DCEA0075E871 /* WidgetKit.framework in Frameworks */,
-				CDB85893881BCDE2CBE82CB1 /* Pods_TimerLiveActivityExtension.framework in Frameworks */,
+				88622B242FD618DA0071ABB5 /* SwiftUI.framework in Frameworks */,
+				88622B232FD618DA0071ABB5 /* WidgetKit.framework in Frameworks */,
+				9919D69C5AD81560CE420BDB /* Pods_TodoinExtensionsExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C54ACF53F0285B43CE4BCA4 /* Pods_Runner.framework in Frameworks */,
+				7FD7AA8DA8F45610CC777EF6 /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,15 +165,15 @@
 		525D80D51B0D4957FF98347A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1D21B8FB4856003C8DDFFC9C /* Pods-Runner.debug.xcconfig */,
-				52C76F1B1C10AB9ADC426786 /* Pods-Runner.release.xcconfig */,
-				F0B9A10603595076AB784D67 /* Pods-Runner.profile.xcconfig */,
-				0EF2F7FC7239318F99420704 /* Pods-RunnerTests.debug.xcconfig */,
-				7F6C659B5636F662E38AD168 /* Pods-RunnerTests.release.xcconfig */,
-				0FB8807957D837ED850F3022 /* Pods-RunnerTests.profile.xcconfig */,
-				94E959C3CAE8862FA9CA8F5B /* Pods-TimerLiveActivityExtension.debug.xcconfig */,
-				6B195C6D90D278162FF5FA3A /* Pods-TimerLiveActivityExtension.release.xcconfig */,
-				C99DF99F745EA38594C65C33 /* Pods-TimerLiveActivityExtension.profile.xcconfig */,
+				D697FFF1A07FC2C92AAA9661 /* Pods-Runner.debug.xcconfig */,
+				7ECABC66B455551D68E99851 /* Pods-Runner.release.xcconfig */,
+				23ACA1493DF284AA2E27826F /* Pods-Runner.profile.xcconfig */,
+				639A759128AB0F9CEF2B7D2A /* Pods-RunnerTests.debug.xcconfig */,
+				CD8837FEF1E82938480658D4 /* Pods-RunnerTests.release.xcconfig */,
+				ACE0BDBD367562C99E6D3C07 /* Pods-RunnerTests.profile.xcconfig */,
+				1F4F8E9CAA4C9FD452011D27 /* Pods-TodoinExtensionsExtension.debug.xcconfig */,
+				7522DAB813C243299EB02C23 /* Pods-TodoinExtensionsExtension.release.xcconfig */,
+				015FD25A271A9791DD368500 /* Pods-TodoinExtensionsExtension.profile.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -191,10 +192,10 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
-				883F05E32F70DFDF0075E871 /* TimerLiveActivityExtensionRelease.entitlements */,
+				88622B3B2FD619810071ABB5 /* TodoinExtensionsExtension.entitlements */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
-				883F05C72F70DCEA0075E871 /* TimerLiveActivity */,
+				88622B252FD618DA0071ABB5 /* TodoinExtensions */,
 				97C146EF1CF9000F007C117D /* Products */,
 				331C8082294A63A400263BE5 /* RunnerTests */,
 				525D80D51B0D4957FF98347A /* Pods */,
@@ -207,7 +208,7 @@
 			children = (
 				97C146EE1CF9000F007C117D /* Runner.app */,
 				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
-				883F05C22F70DCEA0075E871 /* TimerLiveActivityExtension.appex */,
+				88622B222FD618DA0071ABB5 /* TodoinExtensionsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,6 +216,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				88622B3A2FD619630071ABB5 /* Runner.entitlements */,
 				883F05E22F70DF570075E871 /* RunnerRelease.entitlements */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
@@ -231,11 +233,11 @@
 		CB9008B080E2D17BE850A91F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2CB3D578684451109B86C9F4 /* Pods_Runner.framework */,
-				C6719D5D07236200D4FFA876 /* Pods_RunnerTests.framework */,
 				883F05C32F70DCEA0075E871 /* WidgetKit.framework */,
 				883F05C52F70DCEA0075E871 /* SwiftUI.framework */,
-				D0AB8865E695D0607C9DD244 /* Pods_TimerLiveActivityExtension.framework */,
+				7D4F5C9246C9163A5CBA0B0F /* Pods_Runner.framework */,
+				F863D998FB4A0B1F3C6F2C37 /* Pods_RunnerTests.framework */,
+				C6E912BE4DE1911553A4BA71 /* Pods_TodoinExtensionsExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -247,7 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */;
 			buildPhases = (
-				AA6F4F72D11954F8D4245FAB /* [CP] Check Pods Manifest.lock */,
+				63ED08F9F7476880C7F117DA /* [CP] Check Pods Manifest.lock */,
 				331C807D294A63A400263BE5 /* Sources */,
 				331C807F294A63A400263BE5 /* Resources */,
 				1D11AAF2C958C31C816D94B8 /* Frameworks */,
@@ -262,45 +264,45 @@
 			productReference = 331C8081294A63A400263BE5 /* RunnerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		883F05C12F70DCEA0075E871 /* TimerLiveActivityExtension */ = {
+		88622B212FD618DA0071ABB5 /* TodoinExtensionsExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 883F05DD2F70DCEB0075E871 /* Build configuration list for PBXNativeTarget "TimerLiveActivityExtension" */;
+			buildConfigurationList = 88622B382FD618DB0071ABB5 /* Build configuration list for PBXNativeTarget "TodoinExtensionsExtension" */;
 			buildPhases = (
-				F14754A6296E3BDF69D76F3A /* [CP] Check Pods Manifest.lock */,
-				883F05BE2F70DCEA0075E871 /* Sources */,
-				883F05BF2F70DCEA0075E871 /* Frameworks */,
-				883F05C02F70DCEA0075E871 /* Resources */,
+				DD4E36429B93468D3FEB3815 /* [CP] Check Pods Manifest.lock */,
+				88622B1E2FD618DA0071ABB5 /* Sources */,
+				88622B1F2FD618DA0071ABB5 /* Frameworks */,
+				88622B202FD618DA0071ABB5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				883F05C72F70DCEA0075E871 /* TimerLiveActivity */,
+				88622B252FD618DA0071ABB5 /* TodoinExtensions */,
 			);
-			name = TimerLiveActivityExtension;
-			productName = TimerLiveActivityExtension;
-			productReference = 883F05C22F70DCEA0075E871 /* TimerLiveActivityExtension.appex */;
+			name = TodoinExtensionsExtension;
+			productName = TodoinExtensionsExtension;
+			productReference = 88622B222FD618DA0071ABB5 /* TodoinExtensionsExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		97C146ED1CF9000F007C117D /* Runner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
 			buildPhases = (
-				A37747E70E97A6810F2A62A9 /* [CP] Check Pods Manifest.lock */,
+				B2BF50A5CF637170FA8AC02F /* [CP] Check Pods Manifest.lock */,
 				9740EEB61CF901F6004384FC /* Run Script */,
 				97C146EA1CF9000F007C117D /* Sources */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				883F05D82F70DCEB0075E871 /* Embed Foundation Extensions */,
-				C6F694884EBC6A3AD20DC8DD /* [CP] Embed Pods Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				1AF80E2A55AAF9E8D9599F7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				883F05D62F70DCEB0075E871 /* PBXTargetDependency */,
+				88622B322FD618DB0071ABB5 /* PBXTargetDependency */,
 			);
 			name = Runner;
 			productName = Runner;
@@ -322,7 +324,7 @@
 						CreatedOnToolsVersion = 14.0;
 						TestTargetID = 97C146ED1CF9000F007C117D;
 					};
-					883F05C12F70DCEA0075E871 = {
+					88622B212FD618DA0071ABB5 = {
 						CreatedOnToolsVersion = 26.1.1;
 					};
 					97C146ED1CF9000F007C117D = {
@@ -346,7 +348,7 @@
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
 				331C8080294A63A400263BE5 /* RunnerTests */,
-				883F05C12F70DCEA0075E871 /* TimerLiveActivityExtension */,
+				88622B212FD618DA0071ABB5 /* TodoinExtensionsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -359,7 +361,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		883F05C02F70DCEA0075E871 /* Resources */ = {
+		88622B202FD618DA0071ABB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,6 +382,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1AF80E2A55AAF9E8D9599F7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -396,44 +415,7 @@
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
 		};
-		9740EEB61CF901F6004384FC /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
-		};
-		A37747E70E97A6810F2A62A9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA6F4F72D11954F8D4245FAB /* [CP] Check Pods Manifest.lock */ = {
+		63ED08F9F7476880C7F117DA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,24 +437,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C6F694884EBC6A3AD20DC8DD /* [CP] Embed Pods Frameworks */ = {
+		9740EEB61CF901F6004384FC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			name = "Run Script";
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
 		};
-		F14754A6296E3BDF69D76F3A /* [CP] Check Pods Manifest.lock */ = {
+		B2BF50A5CF637170FA8AC02F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -487,7 +467,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TimerLiveActivityExtension-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD4E36429B93468D3FEB3815 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodoinExtensionsExtension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -505,7 +507,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		883F05BE2F70DCEA0075E871 /* Sources */ = {
+		88622B1E2FD618DA0071ABB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -529,10 +531,10 @@
 			target = 97C146ED1CF9000F007C117D /* Runner */;
 			targetProxy = 331C8085294A63A400263BE5 /* PBXContainerItemProxy */;
 		};
-		883F05D62F70DCEB0075E871 /* PBXTargetDependency */ = {
+		88622B322FD618DB0071ABB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 883F05C12F70DCEA0075E871 /* TimerLiveActivityExtension */;
-			targetProxy = 883F05D52F70DCEB0075E871 /* PBXContainerItemProxy */;
+			target = 88622B212FD618DA0071ABB5 /* TodoinExtensionsExtension */;
+			targetProxy = 88622B312FD618DB0071ABB5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -614,6 +616,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = B3ZD68Q447;
 				ENABLE_BITCODE = NO;
@@ -622,7 +625,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoinFocusApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubitapp.todoinapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -632,14 +635,14 @@
 		};
 		331C8088294A63A400263BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EF2F7FC7239318F99420704 /* Pods-RunnerTests.debug.xcconfig */;
+			baseConfigurationReference = 639A759128AB0F9CEF2B7D2A /* Pods-RunnerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoinFocusApp.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubitapp.todoinapp.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -650,14 +653,14 @@
 		};
 		331C8089294A63A400263BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F6C659B5636F662E38AD168 /* Pods-RunnerTests.release.xcconfig */;
+			baseConfigurationReference = CD8837FEF1E82938480658D4 /* Pods-RunnerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoinFocusApp.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubitapp.todoinapp.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
@@ -666,23 +669,23 @@
 		};
 		331C808A294A63A400263BE5 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB8807957D837ED850F3022 /* Pods-RunnerTests.profile.xcconfig */;
+			baseConfigurationReference = ACE0BDBD367562C99E6D3C07 /* Pods-RunnerTests.profile.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoinFocusApp.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubitapp.todoinapp.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
 			name = Profile;
 		};
-		883F05D92F70DCEB0075E871 /* Debug */ = {
+		88622B342FD618DB0071ABB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94E959C3CAE8862FA9CA8F5B /* Pods-TimerLiveActivityExtension.debug.xcconfig */;
+			baseConfigurationReference = 1F4F8E9CAA4C9FD452011D27 /* Pods-TodoinExtensionsExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -692,16 +695,17 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TodoinExtensionsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B3ZD68Q447;
+				DEVELOPMENT_TEAM = VCE77X465D;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TimerLiveActivity/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TimerLiveActivity;
+				INFOPLIST_FILE = TodoinExtensions/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = toDoin;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -711,7 +715,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoinFocusApp.TimerLiveActivity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubitapp.todoinapp.TodoinExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -725,9 +729,9 @@
 			};
 			name = Debug;
 		};
-		883F05DA2F70DCEB0075E871 /* Release */ = {
+		88622B352FD618DB0071ABB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B195C6D90D278162FF5FA3A /* Pods-TimerLiveActivityExtension.release.xcconfig */;
+			baseConfigurationReference = 7522DAB813C243299EB02C23 /* Pods-TodoinExtensionsExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -737,17 +741,17 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = TimerLiveActivityExtensionRelease.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TodoinExtensionsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VCE77X465D;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TimerLiveActivity/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TimerLiveActivity;
+				INFOPLIST_FILE = TodoinExtensions/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = toDoin;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -756,7 +760,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoinFocusApp.TimerLiveActivity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubitapp.todoinapp.TodoinExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -768,9 +772,9 @@
 			};
 			name = Release;
 		};
-		883F05DB2F70DCEB0075E871 /* Profile */ = {
+		88622B362FD618DB0071ABB5 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C99DF99F745EA38594C65C33 /* Pods-TimerLiveActivityExtension.profile.xcconfig */;
+			baseConfigurationReference = 015FD25A271A9791DD368500 /* Pods-TodoinExtensionsExtension.profile.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -780,16 +784,17 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = TodoinExtensionsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B3ZD68Q447;
+				DEVELOPMENT_TEAM = VCE77X465D;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TimerLiveActivity/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TimerLiveActivity;
+				INFOPLIST_FILE = TodoinExtensions/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = toDoin;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -798,7 +803,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoinFocusApp.TimerLiveActivity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubitapp.todoinapp.TodoinExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -927,6 +932,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = B3ZD68Q447;
 				ENABLE_BITCODE = NO;
@@ -935,7 +941,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoinFocusApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubitapp.todoinapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -959,7 +965,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoinFocusApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubitapp.todoinapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -980,12 +986,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		883F05DD2F70DCEB0075E871 /* Build configuration list for PBXNativeTarget "TimerLiveActivityExtension" */ = {
+		88622B382FD618DB0071ABB5 /* Build configuration list for PBXNativeTarget "TodoinExtensionsExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				883F05D92F70DCEB0075E871 /* Debug */,
-				883F05DA2F70DCEB0075E871 /* Release */,
-				883F05DB2F70DCEB0075E871 /* Profile */,
+				88622B342FD618DB0071ABB5 /* Debug */,
+				88622B352FD618DB0071ABB5 /* Release */,
+				88622B362FD618DB0071ABB5 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

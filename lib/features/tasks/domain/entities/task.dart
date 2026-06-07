@@ -43,4 +43,33 @@ class Task {
       type: type ?? this.type,
     );
   }
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+
+    return other is Task &&
+        other.id == id &&
+        other.title == title &&
+        other.completed == completed &&
+        _listEquals(other.subtasks, subtasks) &&
+        other.type == type;
+  }
+
+  @override
+  int get hashCode => Object.hash(
+        id,
+        title,
+        completed,
+        Object.hashAll(subtasks),
+        type,
+      );
+}
+
+bool _listEquals<T>(List<T> a, List<T> b) {
+  if (a.length != b.length) return false;
+  for (var i = 0; i < a.length; i++) {
+    if (a[i] != b[i]) return false;
+  }
+  return true;
 }

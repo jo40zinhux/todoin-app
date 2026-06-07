@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		8xaSKPludU4cwNFlAu0jAkxhFp4=
+		ZtKZyAvG2TEDccffIf7xg+iHxDs=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		oOn7bBUsT0FWTiEsYuPZJQ1CyKs=
+		dV4Va1ynycJsIOsvwrmJ5lSpmK4=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		sqyvZAJs4/dVz5D808hfNISR684=
+		3gsPOXl9l0UviezGzA1Hcw+NIA8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		F+AXltXeisqgwvyWiVxdFhJSlyA=
+		UgIygFhsjxr5SF0JJS2iXB3jFjE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/sounds/click.mp3</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		vZZQYYGtzkEi9MKmDMrTzfWpgMs=
+		FUkKm1DBkh5i3ndsM136xZvrRM4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -115,6 +115,261 @@
 		<key>Frameworks/App.framework/flutter_assets/vm_snapshot_data</key>
 		<data>
 		5pZuXudFN+/X6GBnZRBE8DbuhuQ=
+		</data>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController</key>
+		<data>
+		3C1DyRkTXCO7EiEUXBHcMKWRqS0=
+		</data>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/Assets.car</key>
+		<data>
+		Pofn09mxvhWUfMrzb0q161UDYe4=
+		</data>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/Base.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4xGD8Rwvi93HvaqnO7+vDZWDMBM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/Info.plist</key>
+		<data>
+		MI75HLjAo+2X4tungiZJ3ORaTF4=
+		</data>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		YLYZhRSzZVHV+D7U/AQzGNwF8Ug=
+		</data>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/ar.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hmgKVe/ELj2gURZGT+GZDwZaP7Q=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/da.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D/EoHjvTwHAWEzVuC2G6vBsJnu4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/de.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aBIMF8wyDvY06aV2Bd4D1ivcRU4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/en.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9Q/DfMw3bDYmzyQL9Dp2TQkyUvM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/es.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NevVA8t5NN7C0rKXChImH4O3YfE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/fr.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6cJMOe8JrYF03L3W9F79fIYPtE8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/hu.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0eCEwKbFu38BHkg5r6N8402dkXs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/it.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TAlKCVsmH6cihPALHZhnFoQs5LE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/ja.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PIZnwQ5EdXn9Sde2m08gpbjHacs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/ko.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kJxeSwpa45LW72gQKW/iC9Jn4zU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/nb-NO.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GT/zie43E+HBEWl2kTAJRkDdE9s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/nl.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lAVKBUVMnJkxVl9jrus2i2k1oIk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/pt_BR.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tUPVite8WGcESkhEVtVsN+8aEx8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/ru.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0rIAuu7v039vnJh99/NkEhlYpXI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/tr.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			558fSIGiBHUJCg2iZQvHWlivw1Q=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/ur.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6EYiiFsDKyAlJwepmIqOnx80kwA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/vi.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			001MdN+6p4Wj2GxyuQi9jI2OymI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/zh-Hans.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Qfv+Sv1HN+PP6w3kSD8UxfCs8m8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/zh-Hant.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xDMDoCCnErpChkw3aU6nZGMhrMw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/Info.plist</key>
+		<data>
+		WLIZ54MeqhLP4ClcjQwvGhBsrc8=
+		</data>
+		<key>Frameworks/DKImagePickerController.framework/_CodeSignature/CodeResources</key>
+		<data>
+		8Z+ffH1Xr7uRoDYnPPdhjQbsgLU=
+		</data>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery</key>
+		<data>
+		qNObuF2Xa7R8h3Wj9gjAc0QvVQ4=
+		</data>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/Assets.car</key>
+		<data>
+		Yu5L8wWeUVDX5Ay5BmxvppYEx00=
+		</data>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/Base.lproj/DKPhotoGallery.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NA0j4SwR2AsLRfnHuNxL8Z1By44=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/Info.plist</key>
+		<data>
+		VUwQOQmYxxDTpsew0qvG0/d9zHQ=
+		</data>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		YLYZhRSzZVHV+D7U/AQzGNwF8Ug=
+		</data>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/en.lproj/DKPhotoGallery.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lBygwcHp7X/0n1lfhAX4rhrabvk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/zh-Hans.lproj/DKPhotoGallery.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TC+NpTOWlgfdj3gzJygtTnl0V0o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/Info.plist</key>
+		<data>
+		FMl845CVy7x3M5cJLrMVjOrZb30=
+		</data>
+		<key>Frameworks/DKPhotoGallery.framework/_CodeSignature/CodeResources</key>
+		<data>
+		biLom39M8pLUp8AXA7Y4M5/s94k=
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
@@ -204,77 +459,225 @@
 		<data>
 		Ubat0LvE4LUgCwHeyl0Anx2vnzk=
 		</data>
+		<key>Frameworks/PostHog.framework/Info.plist</key>
+		<data>
+		fBNkDL0AT0OAyqgr4K+b8R4sPoQ=
+		</data>
+		<key>Frameworks/PostHog.framework/PHPLCrashReporter.bundle/Info.plist</key>
+		<data>
+		swgE8Tn7saTXBrXSlCxBHVzP3gw=
+		</data>
+		<key>Frameworks/PostHog.framework/PHPLCrashReporter.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		O3Zhkkf3uaxqyTk0D3zchR8Gees=
+		</data>
+		<key>Frameworks/PostHog.framework/PostHog</key>
+		<data>
+		EXkVPNxNhoRMxN/CEu8NuVhVAYY=
+		</data>
+		<key>Frameworks/PostHog.framework/PostHog.bundle/Info.plist</key>
+		<data>
+		uc9wEIwvFX6CFqK87jHFtv1xbvs=
+		</data>
+		<key>Frameworks/PostHog.framework/PostHog.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		XdwEI7KKJu2gxulf6d+8+2HpdjQ=
+		</data>
+		<key>Frameworks/PostHog.framework/_CodeSignature/CodeResources</key>
+		<data>
+		9cq2SPXp3+V55z6yQdkTklAFgK4=
+		</data>
+		<key>Frameworks/PurchasesHybridCommon.framework/Info.plist</key>
+		<data>
+		9pFBU5FwJGiz/CBM15rar9Y8yVM=
+		</data>
+		<key>Frameworks/PurchasesHybridCommon.framework/PurchasesHybridCommon</key>
+		<data>
+		754c4JwGXEywJ7br2r4LuAm2N6s=
+		</data>
+		<key>Frameworks/PurchasesHybridCommon.framework/PurchasesHybridCommon.bundle/Info.plist</key>
+		<data>
+		bXLHsavvQVdgGff1D3t/bDW0Kr8=
+		</data>
+		<key>Frameworks/PurchasesHybridCommon.framework/PurchasesHybridCommon.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		r0725jJm+lkHnJjfK5vt0L2Yvoc=
+		</data>
+		<key>Frameworks/PurchasesHybridCommon.framework/_CodeSignature/CodeResources</key>
+		<data>
+		l2+k3oTstKBf4y083LhMGQsbJi4=
+		</data>
+		<key>Frameworks/RevenueCat.framework/Info.plist</key>
+		<data>
+		qV+6F/obOMpRuP3u3Z6xraO9sGY=
+		</data>
+		<key>Frameworks/RevenueCat.framework/RevenueCat</key>
+		<data>
+		Eyit839LQDCu3EOMiUCb41NYHLk=
+		</data>
+		<key>Frameworks/RevenueCat.framework/RevenueCat.bundle/Info.plist</key>
+		<data>
+		sCDR2/w/fGZ/tSC4ocdVjY+Q5Vk=
+		</data>
+		<key>Frameworks/RevenueCat.framework/RevenueCat.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		uqRDkW3s33psRj8H+jal4YSzsvk=
+		</data>
+		<key>Frameworks/RevenueCat.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Equ0ZB6wvRVwpiCRANkzIzep+sk=
+		</data>
+		<key>Frameworks/SDWebImage.framework/Info.plist</key>
+		<data>
+		BQCm+/6sUdOC7PsBhHOA3x2e0PE=
+		</data>
+		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
+		<data>
+		vYr0YPPZTFoOGCzPeChu4vh7UAY=
+		</data>
+		<key>Frameworks/SDWebImage.framework/SDWebImage.bundle/Info.plist</key>
+		<data>
+		Lfa1/wG1L80EsS2Xm45y33Uhm7w=
+		</data>
+		<key>Frameworks/SDWebImage.framework/SDWebImage.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		PFHYbs0V3eUFDWQyYQcwEetuqEk=
+		</data>
+		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
+		<data>
+		GD6aUhEZxqNwfPeLbUaef5MeJAg=
+		</data>
+		<key>Frameworks/Sentry.framework/Info.plist</key>
+		<data>
+		m8cmsVt6wieazKYwv7r11GNN59U=
+		</data>
+		<key>Frameworks/Sentry.framework/Sentry</key>
+		<data>
+		6NUOuc+mhOhbLFXmTtwuXpehCDY=
+		</data>
+		<key>Frameworks/Sentry.framework/Sentry.bundle/Info.plist</key>
+		<data>
+		Z0b28jBithGB8vdS/KQr+scX8CA=
+		</data>
+		<key>Frameworks/Sentry.framework/Sentry.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		TQngLjTjLSFkIvzj0cUeqllg9oI=
+		</data>
+		<key>Frameworks/Sentry.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Xr/khGoxa8AdFup5mwRNs79pfD0=
+		</data>
+		<key>Frameworks/SwiftyGif.framework/Info.plist</key>
+		<data>
+		B2JuQ7EveWTkk85og0Y4W/Wh2Bo=
+		</data>
+		<key>Frameworks/SwiftyGif.framework/SwiftyGif</key>
+		<data>
+		wIDTRSWLuBv0Uw6huqgXhycWs+Y=
+		</data>
+		<key>Frameworks/SwiftyGif.framework/SwiftyGif.bundle/Info.plist</key>
+		<data>
+		gGrBafvzEUyaZnP+Zpv0f9HuDD0=
+		</data>
+		<key>Frameworks/SwiftyGif.framework/SwiftyGif.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		i3YpomTpJHpRGpdt+oGaesmknBg=
+		</data>
+		<key>Frameworks/SwiftyGif.framework/_CodeSignature/CodeResources</key>
+		<data>
+		wpj/O30T5DdhKTH7L0Kss2Alskk=
+		</data>
 		<key>Frameworks/app_group_directory.framework/Info.plist</key>
 		<data>
-		Rb2Vk/p/7wahYUlkG5fu8MwACiQ=
+		m6DIUiW+zXsoZhPCdx0TkzCkAc4=
 		</data>
 		<key>Frameworks/app_group_directory.framework/_CodeSignature/CodeResources</key>
 		<data>
-		XisJJ2Mx1zgi4cWWLnZKsh6cwdo=
+		2tifdMgdlvpwfjv3jbCZbK6YHLc=
 		</data>
 		<key>Frameworks/app_group_directory.framework/app_group_directory</key>
 		<data>
-		ZetzXxJRCEMKPZxj5NJABK8z5gU=
+		1IINsx1dQETrGuzGtHP+MnFi2rg=
 		</data>
 		<key>Frameworks/audioplayers_darwin.framework/Info.plist</key>
 		<data>
-		6oXPhfBUvaol6bXOQkiwTdrGgU4=
+		BugKdzB3MBJH6ARtab/QtJYSr9c=
 		</data>
 		<key>Frameworks/audioplayers_darwin.framework/_CodeSignature/CodeResources</key>
 		<data>
-		GWwj3W6yxA8peMc2dRFhhRX1o4g=
+		ie6scA9mS+ZnZ0RHHyFTxp11dSs=
 		</data>
 		<key>Frameworks/audioplayers_darwin.framework/audioplayers_darwin</key>
 		<data>
-		pWpw3vaUewXsW4FAZsfR0z0Przs=
+		qqOgfJdUGAm8rGEr0nzzhPiK7BM=
 		</data>
 		<key>Frameworks/device_info_plus.framework/Info.plist</key>
 		<data>
-		gmrjLDytHB3wjG7Y1b83Uq8bVoU=
+		IWFycikdQBkJ8xHHrBfD8E50aG4=
 		</data>
 		<key>Frameworks/device_info_plus.framework/_CodeSignature/CodeResources</key>
 		<data>
-		UOyBJK+4QEvYsYPDW4G+5AZ5CIU=
+		iMGfMOswJKU+xMt+jOOWYOsQFT0=
 		</data>
 		<key>Frameworks/device_info_plus.framework/device_info_plus</key>
 		<data>
-		Go/Wa2YqoNr9ohmvSD4gw2eT3sA=
+		mhBw9u93PHrO7wsvvpevzD3l+pI=
 		</data>
 		<key>Frameworks/device_info_plus.framework/device_info_plus_privacy.bundle/Info.plist</key>
 		<data>
-		x4RrBmaZ0AKSf3I5d4Eoul53kSc=
+		y4Inye4TvV8P+1WOoQj/J5Oa7Jg=
 		</data>
 		<key>Frameworks/device_info_plus.framework/device_info_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
+		<key>Frameworks/file_picker.framework/Info.plist</key>
+		<data>
+		pu4in47OQbm7DeqIFDIC9yKgHQs=
+		</data>
+		<key>Frameworks/file_picker.framework/_CodeSignature/CodeResources</key>
+		<data>
+		LCDDUuJBlAoByfPK75OondgoiEg=
+		</data>
+		<key>Frameworks/file_picker.framework/file_picker</key>
+		<data>
+		H4DyGGapNKBEh2Se3alxazR3b6M=
+		</data>
+		<key>Frameworks/file_picker.framework/file_picker_ios_privacy.bundle/Info.plist</key>
+		<data>
+		WNs1BbQLdlOhfu/JfjQJ9Ax2G9E=
+		</data>
+		<key>Frameworks/file_picker.framework/file_picker_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		YIiJ5tHvqBeSpBm2mcfVZdaGz3E=
+		</data>
 		<key>Frameworks/flutter_foreground_task.framework/Info.plist</key>
 		<data>
-		uHxYpZbP5J1AZaG3pY4lgIN8Zoc=
+		xbpSQQxQiXGYwkk3/qdEDqgZnbI=
 		</data>
 		<key>Frameworks/flutter_foreground_task.framework/_CodeSignature/CodeResources</key>
 		<data>
-		LmIM4miF6pNaWE1Xdvip7aDW1G8=
+		El1ZT2G8GkPMPA/Nv15q9t/OJbI=
 		</data>
 		<key>Frameworks/flutter_foreground_task.framework/flutter_foreground_task</key>
 		<data>
-		aT9Nj2tz9nznCsxDifWdEfqXMqs=
+		0ffLX7+0b7HTCFJeH0bjmuXbuuc=
 		</data>
 		<key>Frameworks/flutter_local_notifications.framework/Info.plist</key>
 		<data>
-		7N12Wp+8osZFWe1/pNpw8M8yP1c=
+		TnGHhRfBfV58gawV1+dFZqiHpZg=
 		</data>
 		<key>Frameworks/flutter_local_notifications.framework/_CodeSignature/CodeResources</key>
 		<data>
-		8YOw6VsAsl+3BnjwA8sAp/Mw1O8=
+		za1dMALN/L45ts17TVVqbLov4Ec=
 		</data>
 		<key>Frameworks/flutter_local_notifications.framework/flutter_local_notifications</key>
 		<data>
-		549mI0qLae7AbNzmgLcATQgmnXM=
+		bEbrwMZudAtjJK0ujBEqSpzb1uw=
 		</data>
 		<key>Frameworks/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/Info.plist</key>
 		<data>
-		NAocLQmc4m+VPNwZoQ+eHjLubkA=
+		+wwHfECVV3gNHH8AC03n9RvJjQQ=
 		</data>
 		<key>Frameworks/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -282,15 +685,35 @@
 		</data>
 		<key>Frameworks/flutter_native_image.framework/Info.plist</key>
 		<data>
-		AHkhxUqvPAWIE2mZNAgRFv0yAA0=
+		3udF+zpyp7XMagcYE/8JRn/0Ycg=
 		</data>
 		<key>Frameworks/flutter_native_image.framework/_CodeSignature/CodeResources</key>
 		<data>
-		+u/AUAOHJ7WZdjZVo7SPeRtidX0=
+		+UgM2RKE6wczJOzjq3ca05xHjOE=
 		</data>
 		<key>Frameworks/flutter_native_image.framework/flutter_native_image</key>
 		<data>
-		5pFbgBmBtzvPHQByRsq25V2+anE=
+		PDOmEd8+6qHfvl3GJUAyO0pibf4=
+		</data>
+		<key>Frameworks/home_widget.framework/Info.plist</key>
+		<data>
+		JhdeZ6/xhmsdgN7l35YfkL8nXpI=
+		</data>
+		<key>Frameworks/home_widget.framework/_CodeSignature/CodeResources</key>
+		<data>
+		bhO8mGoYcE2aDUT8oV03Bu8bZ1k=
+		</data>
+		<key>Frameworks/home_widget.framework/home_widget</key>
+		<data>
+		d5yv1hYwfdYPp4m/5Y+GYFbBfVE=
+		</data>
+		<key>Frameworks/libswiftAVFoundation.dylib</key>
+		<data>
+		G1wwfIUQmAQUNicBse8DEMS+898=
+		</data>
+		<key>Frameworks/libswiftAccelerate.dylib</key>
+		<data>
+		fi1hOZMTlWHTyMihEWpC1aJ2Xas=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -299,6 +722,10 @@
 		<key>Frameworks/libswiftCoreAudio.dylib</key>
 		<data>
 		VBVA9GyAO+3jmn5xLQPje0Kt5JY=
+		</data>
+		<key>Frameworks/libswiftCoreData.dylib</key>
+		<data>
+		bvA3VXSyyUP6lJs1ICTQpDebjMQ=
 		</data>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<data>
@@ -344,6 +771,10 @@
 		<data>
 		PAGOFscjM5dlegYYd6NuV3kXgv8=
 		</data>
+		<key>Frameworks/libswiftPhotos.dylib</key>
+		<data>
+		UgDfAnQUmqtkcc1xBhHVURZ8j/0=
+		</data>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<data>
 		BrWrUIJifQCo0BzGke11sVjXcOE=
@@ -366,71 +797,175 @@
 		</data>
 		<key>Frameworks/live_activities.framework/Info.plist</key>
 		<data>
-		tOtK0EOl/rVTh7klfcMMneSLIE0=
+		O21J0YdMUV93KJ5GVbwD4LELa8A=
 		</data>
 		<key>Frameworks/live_activities.framework/_CodeSignature/CodeResources</key>
 		<data>
-		xR4jVFeRz4N7tl1cDAA1J0i4po4=
+		iBPTwa4iDqqEaDKdEQgWoAISO5Q=
 		</data>
 		<key>Frameworks/live_activities.framework/live_activities</key>
 		<data>
-		xAbsZLf5I1KHoJhd+OCoEiwJRZs=
+		HpdaihbHNJQMe9kOeLwNeL9fmCE=
+		</data>
+		<key>Frameworks/package_info_plus.framework/Info.plist</key>
+		<data>
+		Vd1wNdUPwI4VXo8tct3VTEI4ZAY=
+		</data>
+		<key>Frameworks/package_info_plus.framework/_CodeSignature/CodeResources</key>
+		<data>
+		/CMxD1SLlXTmukGXyC7fTDJRpbw=
+		</data>
+		<key>Frameworks/package_info_plus.framework/package_info_plus</key>
+		<data>
+		C0Yoj4TtoF/IIfK8nE62Y6APhh8=
+		</data>
+		<key>Frameworks/package_info_plus.framework/package_info_plus_privacy.bundle/Info.plist</key>
+		<data>
+		HngkvD7HB04rzGvmIGzX9WqgJxs=
+		</data>
+		<key>Frameworks/package_info_plus.framework/package_info_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
 		<key>Frameworks/path_provider_foundation.framework/Info.plist</key>
 		<data>
-		nTWfl+M4V8q0C559l4YUul+IiKs=
+		hgyXnEJMLzRDka1KftkaMzqzcjc=
 		</data>
 		<key>Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources</key>
 		<data>
-		eCpAazMEiYs0KpV0TV4SbfLjD6E=
+		Ngjlm5mHkirO7HeqgqMlcOaFEqo=
 		</data>
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation</key>
 		<data>
-		6viEM0FLcFmEI5p2Mv9WCxjs2pk=
+		KfIIahnkRIVqcTyQ9yk9mlu1O2M=
 		</data>
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/Info.plist</key>
 		<data>
-		ZkJi2uxci8ESLQsIncxl6M4fq2U=
+		4x5KbnW2jWTID95ZO2poC4F7a1Y=
 		</data>
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
+		<key>Frameworks/posthog_flutter.framework/Info.plist</key>
+		<data>
+		1n5bS9uRksYvZJIkjnPOdumHamk=
+		</data>
+		<key>Frameworks/posthog_flutter.framework/PostHogFlutter.bundle/Info.plist</key>
+		<data>
+		PKdWyNI+PcGrRi+PBfvdmPZr8As=
+		</data>
+		<key>Frameworks/posthog_flutter.framework/PostHogFlutter.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		XdwEI7KKJu2gxulf6d+8+2HpdjQ=
+		</data>
+		<key>Frameworks/posthog_flutter.framework/_CodeSignature/CodeResources</key>
+		<data>
+		iUgwv+MENAmeJyevuMauD55qUBw=
+		</data>
+		<key>Frameworks/posthog_flutter.framework/posthog_flutter</key>
+		<data>
+		8V/rGOylc6SJDAZ0gXMmE/2yEDc=
+		</data>
+		<key>Frameworks/purchases_flutter.framework/Info.plist</key>
+		<data>
+		PSIJIxhmoJFi1U3Rhld7eokCYIQ=
+		</data>
+		<key>Frameworks/purchases_flutter.framework/_CodeSignature/CodeResources</key>
+		<data>
+		+IxV/K7oBn/dUIKMO9kKMPY09c8=
+		</data>
+		<key>Frameworks/purchases_flutter.framework/purchases_flutter</key>
+		<data>
+		M0174fmXHZ6ujhuWccpOwtVFwEA=
+		</data>
+		<key>Frameworks/sentry_flutter.framework/Info.plist</key>
+		<data>
+		ijdragAyTxKz1BZv5VwPdNHYeQM=
+		</data>
+		<key>Frameworks/sentry_flutter.framework/_CodeSignature/CodeResources</key>
+		<data>
+		0gjISQt8GfXTVKKmhs067Paeyg4=
+		</data>
+		<key>Frameworks/sentry_flutter.framework/sentry_flutter</key>
+		<data>
+		AU/5oVTMtub6d4FiAHFmNq/YVyk=
+		</data>
+		<key>Frameworks/share_plus.framework/Info.plist</key>
+		<data>
+		qmadPFUUV0O9cwmgEePeL5YfCy4=
+		</data>
+		<key>Frameworks/share_plus.framework/_CodeSignature/CodeResources</key>
+		<data>
+		GV2Ty0nWiCdLzN39y8qkZmyFjqY=
+		</data>
+		<key>Frameworks/share_plus.framework/share_plus</key>
+		<data>
+		9w62ktb/rnV3GDXrdS8jbAn3i2I=
+		</data>
+		<key>Frameworks/share_plus.framework/share_plus_privacy.bundle/Info.plist</key>
+		<data>
+		z86qcdlx1YpDRLQWvHSnnAKbc3o=
+		</data>
+		<key>Frameworks/share_plus.framework/share_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
+		</data>
 		<key>Frameworks/shared_preferences_foundation.framework/Info.plist</key>
 		<data>
-		G7uvjSWLgDbbnSO8CjEYEWeDulI=
+		ytbPGH0QfTiVCpXMdVOZG0ZZriY=
 		</data>
 		<key>Frameworks/shared_preferences_foundation.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Rx77Vhc5QZbsaHbeKy2Lv85bnZs=
+		8KGSXblqEMTK8SlM0KhI6Nx2MqE=
 		</data>
 		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation</key>
 		<data>
-		CaDMCrbaI+oMG+9ftbl+K2Nf0qk=
+		f9l7Y3e3z6lyAJF/XOm81c8LDQM=
 		</data>
 		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation_privacy.bundle/Info.plist</key>
 		<data>
-		GnMKKzoBX/OKJYgWhQDLoICL4NY=
+		bir9lSMWauV0d4AQQDcBQ8IZQ8Q=
 		</data>
 		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		6uLTlq7fgHHWA8emYDf4ImHC+AY=
 		</data>
+		<key>Frameworks/url_launcher_ios.framework/Info.plist</key>
+		<data>
+		EyyK3EL6KfIiK5nO9ingQUJtKYc=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/_CodeSignature/CodeResources</key>
+		<data>
+		TTwAeN4JqDDhX6ru1I/S/39znpk=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios</key>
+		<data>
+		EoFQzG07sA469yY+ulAm7ki3AaA=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/Info.plist</key>
+		<data>
+		Iw4QIXIFr8eGMfaIYs6HIwzy6Jc=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
+		</data>
 		<key>Frameworks/vibration.framework/Info.plist</key>
 		<data>
-		NWCTf+zkJhH+IiivWQPUENbwrQ0=
+		a9aOndBMp2mvfO7od4X1ZC7FGc0=
 		</data>
 		<key>Frameworks/vibration.framework/_CodeSignature/CodeResources</key>
 		<data>
-		XJ1PSEDovvevtH384hdJEa20pbw=
+		//v572WoGr6ttcjjj0S+fq+Pb4A=
 		</data>
 		<key>Frameworks/vibration.framework/vibration</key>
 		<data>
-		nkNOYQm/HOmdzW4L57MjFrVEgSI=
+		ZiGad9NSspMr3/573AE9ocd+UHI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AVeWucJ4r7zCW8QVk+cZiNtYCDE=
+		twhjV0wF0CMWnWQuOVQOOVdgRFU=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -438,31 +973,75 @@
 		</data>
 		<key>PlugIns/TimerLiveActivityExtension.appex/Info.plist</key>
 		<data>
-		moZi8sR9sN/Flxz55x0NVxl55q8=
+		z5V6ebggyExDPEr4IKmyrtTV3D4=
 		</data>
 		<key>PlugIns/TimerLiveActivityExtension.appex/TimerLiveActivityExtension</key>
 		<data>
-		L4Ixsp+D2mp8hfGYxSbdP5ZheAU=
+		i0cXaM8Lmw+Rkf9WT216F0voIPA=
 		</data>
 		<key>PlugIns/TimerLiveActivityExtension.appex/TimerLiveActivityExtension.debug.dylib</key>
 		<data>
-		n44oYmz7ZZfS4sEgx1+Div4Xk+w=
+		vrKFCTAPthrGR4KvkgOab1gwezA=
 		</data>
 		<key>PlugIns/TimerLiveActivityExtension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		FZaiLmBmFx5xnRwbQeISl7vZEI0=
+		vQVTNwXAnrbSAW5MMaFjXIKZmkM=
 		</data>
 		<key>PlugIns/TimerLiveActivityExtension.appex/__preview.dylib</key>
 		<data>
-		PfeKMWfIjI90homw8AZs8C66m/M=
+		wFRf6xlP2Y4cdkJsPdu0B77hQLI=
+		</data>
+		<key>PlugIns/TodoinExtensionsExtension.appex/Info.plist</key>
+		<data>
+		I0Ol4T9cVjd3RPmgI7kBCqmg/X4=
+		</data>
+		<key>PlugIns/TodoinExtensionsExtension.appex/README.md</key>
+		<data>
+		OowRNaUexbLVVd/FGSL4E5f+0zY=
+		</data>
+		<key>PlugIns/TodoinExtensionsExtension.appex/TodoinExtensionsExtension</key>
+		<data>
+		VaYG2D9y0ugByI8cHOTRWs1Q/5g=
+		</data>
+		<key>PlugIns/TodoinExtensionsExtension.appex/TodoinExtensionsExtension.debug.dylib</key>
+		<data>
+		cOxlLMvaUXPfi+RQATPf+gmweB4=
+		</data>
+		<key>PlugIns/TodoinExtensionsExtension.appex/_CodeSignature/CodeResources</key>
+		<data>
+		T7Pn7Lw2PyqQ20hXyBBJ4pT+geU=
+		</data>
+		<key>PlugIns/TodoinExtensionsExtension.appex/__preview.dylib</key>
+		<data>
+		fyhiUIRUbmCh9q+QI4twHsDmKvg=
+		</data>
+		<key>PlugIns/TodoinWidgetExtensionExtension.appex/Info.plist</key>
+		<data>
+		+BEnQ/TY794zMuV9CA04rlO6hxs=
+		</data>
+		<key>PlugIns/TodoinWidgetExtensionExtension.appex/TodoinWidgetExtensionExtension</key>
+		<data>
+		d3XjcOE7WOiKq3hOkP0+JLi6D8U=
+		</data>
+		<key>PlugIns/TodoinWidgetExtensionExtension.appex/TodoinWidgetExtensionExtension.debug.dylib</key>
+		<data>
+		xbxmNFC/TMcfjlpVAj4M7USEm5A=
+		</data>
+		<key>PlugIns/TodoinWidgetExtensionExtension.appex/_CodeSignature/CodeResources</key>
+		<data>
+		KuetK4lJePv2l1gOMO9b5u7QU9Y=
+		</data>
+		<key>PlugIns/TodoinWidgetExtensionExtension.appex/__preview.dylib</key>
+		<data>
+		0+IvBS52Usr5nJSK3po/iI6KZTA=
 		</data>
 		<key>Runner.debug.dylib</key>
 		<data>
-		lDxZPqPj8bHA5SvLyt+F4VepjQA=
+		eN/bAyolsxlmUaUiWSKPRQauVkE=
 		</data>
 		<key>__preview.dylib</key>
 		<data>
-		jcfUaDlcoWF6YgdIj0tGUKpSuyM=
+		M9c3RmjuFWkY1fCULRfxcDSmSso=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -492,7 +1071,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zLKyEPykldyNsHlpnhmrhe60S/8L2Nc8yN4LaLZRetE=
+			6QbBRmPFjO7me9kMVlxvUUdZa9boP4xnHCiAWDfKMz0=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -541,7 +1120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lKqPQsR31+B4M6c0xYsaWFosLqEdf763sHyKPezr69o=
+			fk/Wb9EnW6OtNLz70IgXwY+Ds95EgL9zCzOqqnS092k=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -555,7 +1134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S+niNYMln7oG40u2KqVV7FJ32yzj92STe75+4PEig1M=
+			d0FmZubPwSREL+wOMOQXE9XLywipudrfaXxtRUEsVwE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -583,7 +1162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Igt1KGH6J1FPzH0D3Ttyh6HCwoofO1a7MA6tlWO4rvw=
+			irmhKdpatcsQu6qqo8XPz51fT7sQ8qbip1/KdvdQZ2E=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/sounds/click.mp3</key>
@@ -639,7 +1218,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UtJY7EO2VPOTyNzN7aje6rRE63vzZ5+L4FD/ZmxUT0o=
+			1meHtFKJEJJU7LufXr7/GlTUgXN6cO6If2eztSxmKyM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -661,6 +1240,297 @@
 			<key>hash2</key>
 			<data>
 			OKT7zSYjvmy6bkUt/xrnwXxv1rygk4kGDCZd1F+nKug=
+			</data>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZeD00Dby/RzULSgBInhs7kFR8PFNZ+ShrWmVCKEEPGU=
+			</data>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0Ab7iDJlrkDRNpZ3+58gwneRx2TKfTDNvjjopZJj9iY=
+			</data>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/Base.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ELjMRLCkLklsKSO6rFYxrtU1AXPGCM/jJcf6s27mQfE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			91FKhsoa9JYv85zfOwjfiaKzWEMelf0oU/EYTtURTsQ=
+			</data>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S5/UHVcXm+A0szmeblzHSHm8fdkVgUuu5mWh9E35hUE=
+			</data>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/ar.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8EBEfhbg9Wp48uZkSBXh83/CjuaZbY0Pl5MP0h7k198=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/da.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Se5q7h7rJFaZACyuxQHvVnbMpZuFEPY2ghUK5n4o08I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/de.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H7oPc9FDMsyBTv1ge4zzQ9mwsX0FoBuLZ9b7IesFuOM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/en.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wRktIAnVAnqy13yInBFBAY0DrBHpEtI9oKtzLeXD3RI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/es.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TYau/PSO1F3K80YkOSGGsuUdKr+GbcbO0xkmsoVguEE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/fr.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XeqMTtiKSK1J6ujdx7yhXp7BWuvKJYI+RQnYiYny4D8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/hu.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			koXD1oSMQ6BAgGJmcCgH62mWYajI2uBMC9WX+USGCWU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/it.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nhSK2bw/+PLGTtW27tPjkOk71T+MncfskpqPwK2lhZI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/ja.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KeL0orI52PODaxhrV4RvgbgC4Q6krDkO/sprxqlRPfU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/ko.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FCrA4Gc0Mj90bRXELikqH38ISm+VZn/fTFdAWqFNWgw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/nb-NO.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			djVG/NpWtRWjSA3G1iIg53ggesmLPWxj3L7oc2E6h8M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/nl.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wObmt9BBd0IFYimw+uGyKGjKEALrJsjZa+4YtbpoR5g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/pt_BR.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n6iu95SLuBRFRQbd6crMWsW4I6N5HJDoNF0YNzoYpBw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/ru.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M12gTcd21LAS83vmg70IxBhMrkr9SUy+lMNgqQqgJn0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/tr.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CuIDAgluqD/JKtE9pTTvnu9rGSot//IS3XV5HYlNKFU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/ur.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OX1UoR/0JwgfTkhVAuVLC8rm8pkso6MssB+Tb+Kemxg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/vi.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N5fi2LsY43ka7PJFMBqTc+GjU5z417xGXSmegrxxUJc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/zh-Hans.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gW58yg4AYSSFypzzxa1sQ8teATRYb34fi4Jrfwasbuo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/DKImagePickerController.bundle/zh-Hant.lproj/DKImagePickerController.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VoNMNcj3ugOpQ10JjxUvPX5MoSBLftKJdiq9sJ1ijsA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZNb7842Uqml+Qq9bpy2EqqwBIYC8RgpYliA407Q23hI=
+			</data>
+		</dict>
+		<key>Frameworks/DKImagePickerController.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			butRBZB1ZyNmmA2Ve6vWACfal4uKuTL4nR0JoIGr5Vk=
+			</data>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nhqotUTjvCeYXxtQNLtKZ7xLSIVVQqDA9XPIf6sqFQ8=
+			</data>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qbxnfmYlheQQtjaXA4l9c49MBZf4OdH/fjRLiOLgIMk=
+			</data>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/Base.lproj/DKPhotoGallery.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SDI8mZH3KxLV35hSqjP1DaoT/Ur7RH3bmV+MnjMnx54=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aOc766+LCbdWAI/OcKAVjbMdkYe26wu+B6E62K5pA18=
+			</data>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S5/UHVcXm+A0szmeblzHSHm8fdkVgUuu5mWh9E35hUE=
+			</data>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/en.lproj/DKPhotoGallery.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			79OWR8uzUiipYvXTl3V4OfE8HGNgQXp4Is5CjRpErmE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/DKPhotoGallery.bundle/zh-Hans.lproj/DKPhotoGallery.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KI058+XFexomjnRqlnWcg5B3sueg9C1fAlugBgmGNzs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Faj7+wn8BBgQcezzc+QHiWpEdKgs4oJb8wVks8BUA3s=
+			</data>
+		</dict>
+		<key>Frameworks/DKPhotoGallery.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8PCJ+SRY7bPJxOVyEwWFAdfL6Z8ahbwu0LE+lIlwwcU=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Flutter</key>
@@ -817,74 +1687,298 @@
 			ZepykIMSjfzhwAcmupMrkaqvXkhza1ZE3TdHjl8odaw=
 			</data>
 		</dict>
+		<key>Frameworks/PostHog.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZJbvKctkcfyWJGlKREVIV/q7ep3TK3zn3Z0dBf7KScY=
+			</data>
+		</dict>
+		<key>Frameworks/PostHog.framework/PHPLCrashReporter.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h1zIii4l89aT4g/v4Q3x8IV99yu4a+ffgkW+0vLHWss=
+			</data>
+		</dict>
+		<key>Frameworks/PostHog.framework/PHPLCrashReporter.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WdWnMSNl52vRPwKNpI8BQV9PUBP0rC8ybQKoTQJKewI=
+			</data>
+		</dict>
+		<key>Frameworks/PostHog.framework/PostHog</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4fwOD98O2AnYJ0aOweU74Y73XSIGUxe4qOPD0d/XXhA=
+			</data>
+		</dict>
+		<key>Frameworks/PostHog.framework/PostHog.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m7N8knWTdaTOrwfnG+ASxvTCsSS2mBkQCcXfLu7Jjok=
+			</data>
+		</dict>
+		<key>Frameworks/PostHog.framework/PostHog.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ThroJG4j7f39WdC+6WBpRWJsEMg+Vaf1rz8E3yX6db0=
+			</data>
+		</dict>
+		<key>Frameworks/PostHog.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Niv3lJKjubiWCKj7T3jzxImGnHXL5koQuS5ZGrc458g=
+			</data>
+		</dict>
+		<key>Frameworks/PurchasesHybridCommon.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m4p0b2lPb0slBR6wlntW7J/RiUP1SBRoH2zaFj/EpKw=
+			</data>
+		</dict>
+		<key>Frameworks/PurchasesHybridCommon.framework/PurchasesHybridCommon</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/eojqAhsQI65vMb4OXvG3BegbVqVGNNKBPYM3RQg//0=
+			</data>
+		</dict>
+		<key>Frameworks/PurchasesHybridCommon.framework/PurchasesHybridCommon.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VeKvq18pPnlxHEamDkXSMhNTG9d424jHwt967F3Sz9U=
+			</data>
+		</dict>
+		<key>Frameworks/PurchasesHybridCommon.framework/PurchasesHybridCommon.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hmdsyr21EVuJB7/g4ZEv1eLo7fJxaDi3vIkL5j7akoI=
+			</data>
+		</dict>
+		<key>Frameworks/PurchasesHybridCommon.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CB6SkRRUKYYuaKeNIItCSKLup7y3zdXa5XLIcML2IyA=
+			</data>
+		</dict>
+		<key>Frameworks/RevenueCat.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qXROX19hwIKydgynABJFayWIl6SYXPa3MbMOU/pXTN4=
+			</data>
+		</dict>
+		<key>Frameworks/RevenueCat.framework/RevenueCat</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OO7Gt0p9tWQ9UKBXmLqf9hwq8/vgD2RiKtsOW7W7XDo=
+			</data>
+		</dict>
+		<key>Frameworks/RevenueCat.framework/RevenueCat.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y+b0ha0EkTx6bN4YDQdvC6VF6fP07rZsH/zDXAkPZdg=
+			</data>
+		</dict>
+		<key>Frameworks/RevenueCat.framework/RevenueCat.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dsh2xzvzfWOylE0EkeTZpD1CDeeLZlEvzKJ6SErpLnk=
+			</data>
+		</dict>
+		<key>Frameworks/RevenueCat.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3pKcBRZo9qy2cJreexAAaaTQjZVSI+5hlPqbtDwCBsU=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			c+0ULNe45fraxUVLTjTTPmwEn6eTs06dvp3Za22TWoE=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g+HU3DGy3+n8o43TurBMmG2ebtUDl3nXeFgsLvNF6A4=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/SDWebImage.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GRPfzJOcriCob9YX1+nuNHc2v7QJzYEAOYhs2a3K2jo=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/SDWebImage.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RkSYIAnXQrTypv/1oMfVESriTp5bYgT8feKYsvpPM0Y=
+			</data>
+		</dict>
+		<key>Frameworks/Sentry.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e28Y1JMIrC+PLdE4bZAVswo8AwGiB9QiKu8NVP1n60I=
+			</data>
+		</dict>
+		<key>Frameworks/Sentry.framework/Sentry</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C9ouPvfPgT4gRl8NrefOh1aKkEm2jCP8RZJZuw/jmEQ=
+			</data>
+		</dict>
+		<key>Frameworks/Sentry.framework/Sentry.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dCgwFuQ+BpdM/vpQ32av+BNREy7xfRucx8KipfCuWg8=
+			</data>
+		</dict>
+		<key>Frameworks/Sentry.framework/Sentry.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EYsW4Ol//otvHwG34E9o5dp2RHSk050pM7DurvPNwMo=
+			</data>
+		</dict>
+		<key>Frameworks/Sentry.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qJBlRZlS+fKjC7UaF1Y9i7jzUBpdK6tJjueS7RP1C/c=
+			</data>
+		</dict>
+		<key>Frameworks/SwiftyGif.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			obQXMFcyYKCSGVXWtFJYSX4owffiKDeSaayDRvSHngo=
+			</data>
+		</dict>
+		<key>Frameworks/SwiftyGif.framework/SwiftyGif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jQ3wdM8VoFp1o81TmRx5z41WYUCZPS6tTgBi2PWEfMI=
+			</data>
+		</dict>
+		<key>Frameworks/SwiftyGif.framework/SwiftyGif.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0wpoeYHmB2N5dTN7H69SaiEDEV4/aXCaYD0pWO7ZMeA=
+			</data>
+		</dict>
+		<key>Frameworks/SwiftyGif.framework/SwiftyGif.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jWXQtDoSYs/inoM5bACz25T7Eg1E0RiNknNB8UpsIjw=
+			</data>
+		</dict>
+		<key>Frameworks/SwiftyGif.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LT7AjX280u9hjQJlP1BXT+jCxb5yC48CDEOgWBzoD2c=
+			</data>
+		</dict>
 		<key>Frameworks/app_group_directory.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hlwo+NErAnxO3pgpCqQ+O7/7G0qJ8DvM6B0ytqw7SNQ=
+			esO5BeMF5yAaXlNzKtkrmDV5/+keoFwG+GCGM5GqegA=
 			</data>
 		</dict>
 		<key>Frameworks/app_group_directory.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KtYRLd3+F7Gy/+hAUbCvvaaVVYc+n1//hiqLmHSA+Tc=
+			paNDVNJUvmRJT4E6WiT1mpmnB52jup7NEqrxYYXXeHQ=
 			</data>
 		</dict>
 		<key>Frameworks/app_group_directory.framework/app_group_directory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oGVu8CtPTqt3hxyQVPH1EswgXeo1lx9J7+KIKX+KUFU=
+			7y3dKKRlC0vCfb3/FiajuPwCodaYx1kmXEUBXN25kW0=
 			</data>
 		</dict>
 		<key>Frameworks/audioplayers_darwin.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1iVTjfA5ig6ySfiuotKdnkG/aAGFZXklu/Pu+JISNr0=
+			r5ehGD/zjXtg+ptcYjrJiumInVEy7UQF/lcrf38hXV8=
 			</data>
 		</dict>
 		<key>Frameworks/audioplayers_darwin.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			POAzf+5zckC2uNzFxtr5Z313ejktB9cBxciIZ2Vwow0=
+			ouNaTjpoh1G4BStJyHRZvZPJpwps2yHdNGmpU1E32eY=
 			</data>
 		</dict>
 		<key>Frameworks/audioplayers_darwin.framework/audioplayers_darwin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			62A+p6eldtGoIu6tC81++fRiqKvmfaZ1w5bpPWaZWxc=
+			xilkar6Jdis3UUHBCOqpRDwF3PWTw+OaMAuK45rV6dU=
 			</data>
 		</dict>
 		<key>Frameworks/device_info_plus.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LkXIWTMUyXyN414dAgdo0U8CPTjtf+UhxxHpBoU0lu8=
+			YeKOs0imxgL7OFfUQfZc0Z9zRKTK9bknyvXwmqDgZmI=
 			</data>
 		</dict>
 		<key>Frameworks/device_info_plus.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zg3eiqI7l6AQDrLOdZGN9NpATjcQJE2a7SBqmVFBPuc=
+			H9x3qfJOH7thC/Lok1CSIM5on8jh/LfJ7O3fiai2RmM=
 			</data>
 		</dict>
 		<key>Frameworks/device_info_plus.framework/device_info_plus</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D8coI6K8X9+vBNyn1RdiBtgozE8jNV0juMJ4Ov/vnmE=
+			5Qn2wX0tHPa4z/GvXallg7kzFMr/aR9dmhgcVnQtBZ0=
 			</data>
 		</dict>
 		<key>Frameworks/device_info_plus.framework/device_info_plus_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hboCiGUmam4KG1hH7dO62bAUv3OxY5zVfVW9Br+I5Do=
+			Ks/IkfWDfCgHIvlzkWGK04gR8bU7eIKadG4QB9dIqYI=
 			</data>
 		</dict>
 		<key>Frameworks/device_info_plus.framework/device_info_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -894,53 +1988,88 @@
 			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
 			</data>
 		</dict>
+		<key>Frameworks/file_picker.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1eiq3xC3tdqTiE2rfF9uzJPICXlCyvud6AYecE/j+gI=
+			</data>
+		</dict>
+		<key>Frameworks/file_picker.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MjwOvmpRoMeZ/ThFLy7mj6JWjXSGi7V6jWYBGkzK8pk=
+			</data>
+		</dict>
+		<key>Frameworks/file_picker.framework/file_picker</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UHI6UnsBmvhH4U7tzcTUcfZk28jVpTDToqwBNDhWGow=
+			</data>
+		</dict>
+		<key>Frameworks/file_picker.framework/file_picker_ios_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K+DewizYnqJjn1koGqUsJYFQKU1DbRUB0ODG04ZB4jM=
+			</data>
+		</dict>
+		<key>Frameworks/file_picker.framework/file_picker_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RyJqKWCN8gatChEOav61p3/1dawd+cdr/bLW37P6/tE=
+			</data>
+		</dict>
 		<key>Frameworks/flutter_foreground_task.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vuypJXLZnJ2wDyAUcIKXHVHnE4xVMe8yQwQRWDm+VXs=
+			PPyTgv5SLWKciCoe0az6D0A+elvr14LsQzM5N4LxE2g=
 			</data>
 		</dict>
 		<key>Frameworks/flutter_foreground_task.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qcx1bOkCSHM0Mxh+FsVzu5ZyQ57lOdg07uM2IRIAvEw=
+			ZSLl18OBK2dL+Z432otSvluOxB3oZcYRubav26fLAeU=
 			</data>
 		</dict>
 		<key>Frameworks/flutter_foreground_task.framework/flutter_foreground_task</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iKExzt08ugG5+epuuOEF77GSlRn+f/u37QWCsYrzb3g=
+			tZlzy/87iodmQp2HejsofZjWaoLIpB6fva9Z7W4O2LA=
 			</data>
 		</dict>
 		<key>Frameworks/flutter_local_notifications.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lBU3eZyd6Hf743amk6cGT/LVzwBiBanoFsntzmZblac=
+			XwhjVMs8Pb9O1l7F6/ox4ruH1sZ2F1ejLNRajRIyukM=
 			</data>
 		</dict>
 		<key>Frameworks/flutter_local_notifications.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ywi43ANb8d6lqgfmRZsq5SynwgJ/pXALjZPbZ0AgRmo=
+			mMBGs/5cKcUV2Eq/ifKrO6sKTFHKX1/hwWO3km+J3p0=
 			</data>
 		</dict>
 		<key>Frameworks/flutter_local_notifications.framework/flutter_local_notifications</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/7KdaVGNVeWXmol3mn4CgsYOuncoldVJUTEvN1QinI=
+			hPHalah8/PTVOx3ygp9ZG+yCTh6ut4L3Ty5FCl9SThg=
 			</data>
 		</dict>
 		<key>Frameworks/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XnEMHSjMBJm0jJ7GBsysxa6dU1e+8lXi4H4TVs5qfPU=
+			VKn135xoJ0vOI7NrFMfOl1cb4UKEjAwpGd6nBQzwxrg=
 			</data>
 		</dict>
 		<key>Frameworks/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -954,21 +2083,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FKj9/PaCFJIqzAn3NnlXPPpINf12YcVUOi4E2l1oDxw=
+			rdgQZDSw2HPh6yPm3sn/I1y+L6CyU6lZOHYu6+SqTFs=
 			</data>
 		</dict>
 		<key>Frameworks/flutter_native_image.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b1unmoSH05BNECqU+RayewwOF9GU0ez2hhMABUIMBDY=
+			Tfv16JZ/6qV5c14eV5008aEFH2qcta1nusWMSwwYVZ0=
 			</data>
 		</dict>
 		<key>Frameworks/flutter_native_image.framework/flutter_native_image</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U4WMxkIMUxkkouKZRILNmBAU5lGAp2LSb3KYliU+Oqg=
+			dLU/A6KjoHJgyyJLypfjwedMWWzf0cR8qsKYppiI/c4=
+			</data>
+		</dict>
+		<key>Frameworks/home_widget.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mDC5LsVmMT6UMbl8OO5FsWl/HchMFANt0wZJ4E6CPXI=
+			</data>
+		</dict>
+		<key>Frameworks/home_widget.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			12jPSTycO+mcFQN0YW1gG8Yv2VssU2hvBxhlUcXXxoo=
+			</data>
+		</dict>
+		<key>Frameworks/home_widget.framework/home_widget</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jfje4ZMv2nDKIt/miRBWOiOmIS6gGAtsU0d6bh4TrDo=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftAVFoundation.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L8rV2aWDwiY6XkO5TWsigySLYQWVid+8OSQ4c236p+4=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftAccelerate.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iarApMJVErDX4MOailKymVzGc6l6IkkGEOCfws083XM=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -983,6 +2147,13 @@
 			<key>hash2</key>
 			<data>
 			rGVgUozKwModnuxWWmxpLF2oBIq/Eq/+6ARAsxPoS/0=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftCoreData.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cmr5FoiSuOUGQwFVlCPfKWbocXVERkI5UjisS2QJ1/M=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
@@ -1062,6 +2233,13 @@
 			hzIMKwozWCBy8JF7kqs5UQsy4lTPmTci5LKusGoT02s=
 			</data>
 		</dict>
+		<key>Frameworks/libswiftPhotos.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FiFfOA92MN2NnYjI9q0katrOoaqBn68cjIRoBJWYW94=
+			</data>
+		</dict>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<dict>
 			<key>hash2</key>
@@ -1101,52 +2279,199 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iTA/H8gceKShhClqesC7rChZF+6yq8JqUCilU8kx5qY=
+			S92IfsMD8xz6GXdf40kgu6L8vZDvUH8hhwAQVh+N1tI=
 			</data>
 		</dict>
 		<key>Frameworks/live_activities.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VbL9OAxR9s0RWho+wDjYR35+MyIrOlBaijagR5Sj9zA=
+			PBgH9OAgxY1N0zdjhjtUhyie/gLq4vMAiFOXQ6dPmc0=
 			</data>
 		</dict>
 		<key>Frameworks/live_activities.framework/live_activities</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YKAN5GIAbvxmpceO/IkfZz9ySqlpUWzPqCh1uZArE1A=
+			GCUH55cH6BlsthcLA4kAHxOImO82+hR29HHiNZo2mJY=
+			</data>
+		</dict>
+		<key>Frameworks/package_info_plus.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			31uwpyM9WuA7ZZW1rYvLgAefZZEMwcPA/WXl955oeco=
+			</data>
+		</dict>
+		<key>Frameworks/package_info_plus.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iuwdq4dBBc2+gPjZ6WRMG+SvRMpREWpGwWg5Kc8DKMw=
+			</data>
+		</dict>
+		<key>Frameworks/package_info_plus.framework/package_info_plus</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aI8fFAHr9Itlz2wGkNc8BrF3U9gP3O60jjIviLiH4MY=
+			</data>
+		</dict>
+		<key>Frameworks/package_info_plus.framework/package_info_plus_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xOxVjsTEeXR519g+zV5cSSB21rvUXcrhhlZhW431ozE=
+			</data>
+		</dict>
+		<key>Frameworks/package_info_plus.framework/package_info_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
 			</data>
 		</dict>
 		<key>Frameworks/path_provider_foundation.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m4bLcF/MXxnIPM/TMOFL8oehv+9B1yJaVIlgfvmi7y8=
+			LTeNdr6koMq2FLGwIFf/xdKccsj5N5qKJ4rbEnxERdc=
 			</data>
 		</dict>
 		<key>Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LcHyY0orF5eGQTiG1ZfWQ22OhD4OTLi7gs4UkYFspM=
+			7Rmx2czxowjaLTeGxBhfJadxNDGc1H5tGtcOzvEOvJc=
 			</data>
 		</dict>
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KLPHPM6jA8/y0s14ViDwO3SkeDxEaShZKcVxrwKzMV4=
+			i+VCBElDEbL3HRuk9yTs5SfAyseAdkQAoX4SSNBpUj4=
 			</data>
 		</dict>
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p+epUWp0BzzbclafyzQROcvNadqQFPAY1YXYiqia2oQ=
+			/gdAiOKcAlfyCttQPY1Jcn56te83kkVBFdnFCq2RNtc=
 			</data>
 		</dict>
 		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
+			</data>
+		</dict>
+		<key>Frameworks/posthog_flutter.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O16M4KKc5LPZ5D74YKjcFkqQTYbwvimbsYr/uETrZFg=
+			</data>
+		</dict>
+		<key>Frameworks/posthog_flutter.framework/PostHogFlutter.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2LDIJ3eEo7No4Gw2ZoxyLPnm6K83d0/lmud5oHtABzI=
+			</data>
+		</dict>
+		<key>Frameworks/posthog_flutter.framework/PostHogFlutter.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ThroJG4j7f39WdC+6WBpRWJsEMg+Vaf1rz8E3yX6db0=
+			</data>
+		</dict>
+		<key>Frameworks/posthog_flutter.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			B3f2BEHRqhPpTSvX4vD994y4v16XnlkYe2LWd+qhQCk=
+			</data>
+		</dict>
+		<key>Frameworks/posthog_flutter.framework/posthog_flutter</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A0F29przKDZMjOoauicC+AZcuTYGOFyPjGscrdC3ysE=
+			</data>
+		</dict>
+		<key>Frameworks/purchases_flutter.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oOGAZBphKumuuXPbNnmTcSQzbTymOW79kRj6XqbSeUQ=
+			</data>
+		</dict>
+		<key>Frameworks/purchases_flutter.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QY7Es0oZvznmbW72IjDjxwPvczVSXeF0Tv9ik6aYizU=
+			</data>
+		</dict>
+		<key>Frameworks/purchases_flutter.framework/purchases_flutter</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v/Ji1yX1Gquyfy4j8z9JSAHhlmibSSWWK0GrJiwZyf0=
+			</data>
+		</dict>
+		<key>Frameworks/sentry_flutter.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fUQ5Mkzq7GauTOp2pLOGYzvkF+hpvTyt2W4TterJIKA=
+			</data>
+		</dict>
+		<key>Frameworks/sentry_flutter.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GzcfD7ubYoVsFc6jz1biltRAT5z5RUpYFhCbOuv3cu8=
+			</data>
+		</dict>
+		<key>Frameworks/sentry_flutter.framework/sentry_flutter</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j7p8H6kCETi8RZbv1Nxzi1Xeafxq49sbMQsxNcBszK0=
+			</data>
+		</dict>
+		<key>Frameworks/share_plus.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iUs/vRCuqcknKS+LDlzExINLuBCqR3Tz48VDNNAxsMw=
+			</data>
+		</dict>
+		<key>Frameworks/share_plus.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M5rqIiiT8azMtRqVu2sapzStK69W+fAp+xQPuqCcRfw=
+			</data>
+		</dict>
+		<key>Frameworks/share_plus.framework/share_plus</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QJoJG+40WQ9J5kf3F0uGCD28VVkx9nlCAbnCub34teU=
+			</data>
+		</dict>
+		<key>Frameworks/share_plus.framework/share_plus_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fgC45ofOdDoQmpb7/SY1w0SAZJpxr/+MYacnjIizHhk=
+			</data>
+		</dict>
+		<key>Frameworks/share_plus.framework/share_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -1157,28 +2482,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QgAEVEx+8PcDo5t7L0TytFUhJfy/dhWP9SbCzTRIJ9Y=
+			+4xoa6uiPx91ET/DECjpmYM0rcFfqZDS0PF1pBz0G3M=
 			</data>
 		</dict>
 		<key>Frameworks/shared_preferences_foundation.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D+ZhTaOONSEG6V+DIoICVeSon9ISIANTM1gxFwrIsAM=
+			M91S4uIM3lEafPzxJeGKr+e5ve6+WcZ3rdvjsBICYZ8=
 			</data>
 		</dict>
 		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+uOjm9+gTs5y/N7Ua/YXEm9mvQulz0XckzjujbYrzzo=
+			SUjLZRiTfZvUWsVuqDeDnej4Hi0JWrOSAwyLqpeU6RA=
 			</data>
 		</dict>
 		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			24fxVZntYIbvfFDCU4pKNKCmra6MIh1EBkojEUkoUQc=
+			8ehhwYjZmVcZArjg8OmK28RQfgSda2UUt++SBK8axDk=
 			</data>
 		</dict>
 		<key>Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1188,74 +2513,186 @@
 			BWQouTi9VwGKYAGdFcPB7i+nJ/I2h1mLu9k0hIsYCxo=
 			</data>
 		</dict>
+		<key>Frameworks/url_launcher_ios.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9f2PJk5z6N0OE+tRf3T5tgYexo3Qs8/T+Ds9WyunSE8=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5ItDz6xIdYs0pDbm9QrJY+/091yHtlTR0/DK7p2pHdI=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			01kr/HhzFm4pqZ2KduEcBSixL7jLNUOd5Iq3ThEwF8E=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Iz+Kw8xj9uuxpxyHyV649mcSMwNCUZHw47JFSG1XKZ4=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
+			</data>
+		</dict>
 		<key>Frameworks/vibration.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kUrqP7jiwXB8237x06zw89AnaoZnp002roke6Ji3cno=
+			AevI8f4pKXJrscGFtju2VimczXUbjzHqMbhxCpUvrCw=
 			</data>
 		</dict>
 		<key>Frameworks/vibration.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vdDSMVObqCdqGCItxOQ8MPY/hP0Qu4ifovzFXltceck=
+			82ZdQzYDNK5bzpWBM2OK25h594AsZ0f4qt6Z3jLsXuA=
 			</data>
 		</dict>
 		<key>Frameworks/vibration.framework/vibration</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q4se6tmEWF2vuoEOgESZidIMS34FQ3a4cIL+DZjKMBg=
+			3bzwaxmCcl0i1+oFadyY8RzQ01ZR1SyE69CLlSoby9w=
 			</data>
 		</dict>
 		<key>PlugIns/TimerLiveActivityExtension.appex/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RAaqPc7zzZ/h00YIZpbiqffzIN5j24c4Z+NFGlyz6tQ=
+			UaBmD+BBU5nrEjZZy5/Q7cj47uHNILcxtrKIo5nuWhM=
 			</data>
 		</dict>
 		<key>PlugIns/TimerLiveActivityExtension.appex/TimerLiveActivityExtension</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQ8tPFjlafUlfJ7rIzR0dqx7HtD8kgsBJMCxIzFQudE=
+			FVcqdUY5c/yufRCt/VNtjm4gQMK8t1EYySK1+/N/ssw=
 			</data>
 		</dict>
 		<key>PlugIns/TimerLiveActivityExtension.appex/TimerLiveActivityExtension.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aee82Hwe69lnkkPMkSjsQiOk8kCt1scf6/yu06EvtU0=
+			VTDvXbBt5cmElEVMCMg85W5Pdszk/raJo+6dMz7gsEk=
 			</data>
 		</dict>
 		<key>PlugIns/TimerLiveActivityExtension.appex/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BNYJbjPi9t3w08px32d3QNiGqs7e+2KtMuVa1n4otMI=
+			oZDf2JhkZ2H07kF31p3+/lCHA7nIlg+lOod7Z9sa06Y=
 			</data>
 		</dict>
 		<key>PlugIns/TimerLiveActivityExtension.appex/__preview.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			esDVsM2hDiDjO1HVD4BBxIxHGP+Z4oDB3gc4Zq/8zZM=
+			LFGfvlCHfSh71ZP3LCyUxhnkBKqvX8LtH1h3ZvdRKv8=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinExtensionsExtension.appex/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L0MyjGJbSysdI7jyqpDO0Fv69c3UYkumaN7ts/80ST8=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinExtensionsExtension.appex/README.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1BXU1gWtxzmuzP21M3Fh1QQVOaah1UCJOB3yPif9Ky8=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinExtensionsExtension.appex/TodoinExtensionsExtension</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Rw4yE4QpKDyi1i43KpoaYEmz8HDYjQA1SZfVJ31J5+Q=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinExtensionsExtension.appex/TodoinExtensionsExtension.debug.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			use82CHF5PLA4mvdE2kEnBpMis76peJPfZ8zgG8aQf8=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinExtensionsExtension.appex/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FHw9XctDvI0cz+k2JToCKW0Dks4umWPibvihdRtz6Oc=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinExtensionsExtension.appex/__preview.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ToxpC3mGsoVxnJvnOl+o3qmr2epqPUVCNn9CozNDw3E=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinWidgetExtensionExtension.appex/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4nZM9G+UGKCz7izl6yTXIsThHviOLuNTWPmO2mmXqi4=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinWidgetExtensionExtension.appex/TodoinWidgetExtensionExtension</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YGNgyxyZo7zDckmgimSew01khjw/WjYjoeTS0nz0Xc4=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinWidgetExtensionExtension.appex/TodoinWidgetExtensionExtension.debug.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YCERWpcDExTT5OJjJ2xF9Xwi5kPCaE8gHhD/uodfV4o=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinWidgetExtensionExtension.appex/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vnEBMV8xEgofrb0hT+mNf+cUVZZsEpOUdPViP8uBSRw=
+			</data>
+		</dict>
+		<key>PlugIns/TodoinWidgetExtensionExtension.appex/__preview.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nZXJ2yXyCW9HehzZvL2LtaAY4p04bW+dqJrDxMe1//I=
 			</data>
 		</dict>
 		<key>Runner.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			77nVA/6ZBdbbKVljIVg7uNOFE+p/ISc7haomtYSox3I=
+			sSypfXOtqPhFn8TF1JvOAC6Dpq93EHdW6LiCuH9oZn4=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			59Z7ZXzXo9igSKyxhmCOaxooFNSh6yUFn6ysrsY70A8=
+			MqGZ2CCvIE8e30dNsCXYYCNfxKqzpUlsshelTHcJub4=
 			</data>
 		</dict>
 	</dict>

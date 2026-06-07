@@ -1,6 +1,8 @@
 import 'dart:io';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:timezone/timezone.dart' as tz;
 
 /// Serviço singleton de notificações locais.
 /// Responsável por inicializar o plugin e disparar a notificação
@@ -126,5 +128,79 @@ class NotificationService {
   Future<void> cancelAll() async {
     await _plugin.cancelAll();
     debugPrint('[NotificationService] Todas as notificações canceladas.');
+  }
+
+  // ───────────────────────────────────────────────
+  // Lembretes gentis (Pro)
+  // ───────────────────────────────────────────────
+
+  static const int _gentleReminderId = 2001;
+  static const String _reminderChannelId = 'todoin_reminders';
+  static const String _reminderChannelName = 'Lembretes Gentis';
+  static const String _reminderChannelDesc =
+      'Lembretes suaves para começar uma tarefa';
+
+  Future<void> scheduleGentleReminder({
+    required int hour,
+    required int minute,
+    required String message,
+  }) async {
+    if (!_initialized) await initialize();
+
+    await cancelGentleReminders();
+
+    final now = tz.TZDateTime.now(tz.local);
+    var scheduled = tz.TZDateTime(
+      tz.local,
+      now.year,
+      now.month,
+      now.day,
+      hour,
+      minute,
+    );
+    if (scheduled.isBefore(now)) {
+      scheduled = scheduled.add(const Duration(days: 1));
+    }
+
+    const androidDetails = AndroidNotificationDetails(
+      _reminderChannelId,
+      _reminderChannelName,
+      channelDescription: _reminderChannelDesc,
+      importance: Importance.defaultImportance,
+      priority: Priority.defaultPriority,
+      icon: '@mipmap/ic_launcher',
+    );
+
+    const iosDetails = DarwinNotificationDetails(
+      presentAlert: true,
+      presentBadge: false,
+      presentSound: true,
+      threadIdentifier: 'todoin_reminders',
+    );
+
+    const details = NotificationDetails(
+      android: androidDetails,
+      iOS: iosDetails,
+    );
+
+    await _plugin.zonedSchedule(
+      _gentleReminderId,
+      'toDoin 💜',
+      message,
+      scheduled,
+      details,
+      androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+      uiLocalNotificationDateInterpretation:
+          UILocalNotificationDateInterpretation.absoluteTime,
+      matchDateTimeComponents: DateTimeComponents.time,
+    );
+
+    debugPrint(
+      '[NotificationService] Lembrete agendado para ${hour.toString().padLeft(2, '0')}:${minute.toString().padLeft(2, '0')}.',
+    );
+  }
+
+  Future<void> cancelGentleReminders() async {
+    await _plugin.cancel(_gentleReminderId);
   }
 }

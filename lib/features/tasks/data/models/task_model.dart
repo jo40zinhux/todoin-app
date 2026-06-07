@@ -1,13 +1,19 @@
 import '../../domain/entities/task.dart';
 import 'subtask_model.dart';
 
-class TaskModel extends Task {
+class TaskModel {
+  final String id;
+  final String title;
+  final bool completed;
+  final List<SubTaskModel> subtasks;
+  final TaskType type;
+
   const TaskModel({
-    required super.id,
-    required super.title,
-    super.completed = false,
-    required super.subtasks,
-    super.type = TaskType.general,
+    required this.id,
+    required this.title,
+    this.completed = false,
+    required this.subtasks,
+    this.type = TaskType.general,
   });
 
   factory TaskModel.fromJson(Map<String, dynamic> json) {
@@ -31,8 +37,7 @@ class TaskModel extends Task {
       'id': id,
       'title': title,
       'completed': completed,
-      'subtasks':
-          subtasks.map((s) => SubTaskModel.fromEntity(s).toJson()).toList(),
+      'subtasks': subtasks.map((s) => s.toJson()).toList(),
       'type': type.name,
     };
   }
@@ -42,8 +47,20 @@ class TaskModel extends Task {
       id: entity.id,
       title: entity.title,
       completed: entity.completed,
-      subtasks: entity.subtasks,
+      subtasks: entity.subtasks
+          .map((s) => SubTaskModel.fromEntity(s))
+          .toList(),
       type: entity.type,
+    );
+  }
+
+  Task toEntity() {
+    return Task(
+      id: id,
+      title: title,
+      completed: completed,
+      subtasks: subtasks.map((s) => s.toEntity()).toList(),
+      type: type,
     );
   }
 }
